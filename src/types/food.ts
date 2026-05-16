@@ -22,5 +22,5 @@ export type AppPhase = 'idle' | 'spinning' | 'result';
 export interface FilterState {
   mealType: MealType | 'any';
   healthMode: HealthMode | 'any';
-  venues: Venue[];
+  availableAt: Venue | 'any';
 }

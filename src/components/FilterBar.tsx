@@ -16,14 +16,15 @@ const MEAL_TYPES: { value: MealType | "any"; label: string; emoji: string }[] = 
 
 const HEALTH_MODES: { value: HealthMode | "any"; label: string; emoji: string }[] = [
   { value: "any", label: "ทั้งหมด", emoji: "🍽" },
-  { value: "healthy", label: "Healthy", emoji: "🥗" },
+  { value: "healthy", label: "สุขภาพ", emoji: "🥗" },
   { value: "normal", label: "ปกติ", emoji: "🍔" },
 ];
 
-const VENUES: { value: Venue; label: string; emoji: string }[] = [
-  { value: "7-11", label: "7-11", emoji: "🏪" },
+const VENUES: { value: Venue | "any"; label: string; emoji: string }[] = [
+  { value: "any", label: "ทั้งหมด", emoji: "📍" },
+  { value: "7-11", label: "เซเว่น", emoji: "🏪" },
   { value: "street", label: "ริมทาง", emoji: "🛒" },
-  { value: "restaurant", label: "ร้านอาหาร", emoji: "🍽" },
+  { value: "restaurant", label: "ร้านตามสั่ง", emoji: "🍽" },
   { value: "home", label: "ทำเอง", emoji: "🏠" },
 ];
 
@@ -56,11 +57,8 @@ export function FilterBar({ filters, onChange }: FilterBarProps) {
     onChange({ ...filters, healthMode: filters.healthMode === v ? "any" : v });
   };
 
-  const toggleVenue = (v: Venue) => {
-    const next = filters.venues.includes(v)
-      ? filters.venues.filter((x) => x !== v)
-      : [...filters.venues, v];
-    onChange({ ...filters, venues: next });
+  const setVenue = (v: Venue | "any") => {
+    onChange({ ...filters, availableAt: filters.availableAt === v ? "any" : v });
   };
 
   return (
@@ -77,7 +75,7 @@ export function FilterBar({ filters, onChange }: FilterBarProps) {
       </div>
       <div className="flex flex-wrap gap-2">
         {VENUES.map((v) => (
-          <Pill key={v.value} active={filters.venues.includes(v.value)} label={v.label} emoji={v.emoji} onClick={() => toggleVenue(v.value)} />
+          <Pill key={v.value} active={filters.availableAt === v.value} label={v.label} emoji={v.emoji} onClick={() => setVenue(v.value)} />
         ))}
       </div>
     </div>

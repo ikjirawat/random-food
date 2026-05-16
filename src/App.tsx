@@ -11,7 +11,7 @@ const typedFoods = foods as unknown as FoodItem[];
 const DEFAULT_FILTERS: FilterState = {
   mealType: "any",
   healthMode: "any",
-  venues: [],
+  availableAt: "any",
 };
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
     return typedFoods.filter((f) => {
       if (filters.mealType !== "any" && !f.mealTypes.includes(filters.mealType)) return false;
       if (filters.healthMode !== "any" && f.category !== filters.healthMode) return false;
-      if (filters.venues.length > 0 && !filters.venues.some((v) => f.availableAt.includes(v))) return false;
+      if (filters.availableAt !== "any" && !f.availableAt.includes(filters.availableAt)) return false;
       return true;
     });
   }, [filters]);
