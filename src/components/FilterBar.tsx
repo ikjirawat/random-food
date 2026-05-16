@@ -1,0 +1,85 @@
+import { motion } from "framer-motion";
+import type { FilterState, MealType, HealthMode, Venue } from "../types/food";
+
+interface FilterBarProps {
+  filters: FilterState;
+  onChange: (filters: FilterState) => void;
+}
+
+const MEAL_TYPES: { value: MealType | "any"; label: string; emoji: string }[] = [
+  { value: "any", label: "ทั้งหมด", emoji: "🍽" },
+  { value: "breakfast", label: "เช้า", emoji: "🌅" },
+  { value: "lunch", label: "กลางวัน", emoji: "🍛" },
+  { value: "dinner", label: "เย็น", emoji: "🌙" },
+  { value: "snack", label: "ของว่าง", emoji: "🍿" },
+];
+
+const HEALTH_MODES: { value: HealthMode | "any"; label: string; emoji: string }[] = [
+  { value: "any", label: "ทั้งหมด", emoji: "🍽" },
+  { value: "healthy", label: "Healthy", emoji: "🥗" },
+  { value: "normal", label: "ปกติ", emoji: "🍔" },
+];
+
+const VENUES: { value: Venue; label: string; emoji: string }[] = [
+  { value: "7-11", label: "7-11", emoji: "🏪" },
+  { value: "street", label: "ริมทาง", emoji: "🛒" },
+  { value: "restaurant", label: "ร้านอาหาร", emoji: "🍽" },
+  { value: "home", label: "ทำเอง", emoji: "🏠" },
+];
+
+function Pill({ active, label, emoji, onClick }: {
+  active: boolean; label: string; emoji: string; onClick: () => void;
+}) {
+  return (
+    <motion.button
+      whileTap={{ scale: 0.95 }}
+      onClick={onClick}
+      className="min-h-[44px] px-4 rounded-full text-sm font-medium transition-colors cursor-pointer inline-flex items-center gap-1.5"
+      style={{
+        background: active ? "rgba(255,107,53,0.2)" : "rgba(255,255,255,0.06)",
+        color: active ? "#FF6B35" : "rgba(255,255,255,0.5)",
+        border: `1px solid ${active ? "rgba(255,107,53,0.3)" : "rgba(255,255,255,0.08)"}`,
+      }}
+    >
+      <span>{emoji}</span>
+      <span>{label}</span>
+    </motion.button>
+  );
+}
+
+export function FilterBar({ filters, onChange }: FilterBarProps) {
+  const setMealType = (v: MealType | "any") => {
+    onChange({ ...filters, mealType: filters.mealType === v ? "any" : v });
+  };
+
+  const setHealthMode = (v: HealthMode | "any") => {
+    onChange({ ...filters, healthMode: filters.healthMode === v ? "any" : v });
+  };
+
+  const toggleVenue = (v: Venue) => {
+    const next = filters.venues.includes(v)
+      ? filters.venues.filter((x) => x !== v)
+      : [...filters.venues, v];
+    onChange({ ...filters, venues: next });
+  };
+
+  return (
+    <div className="flex flex-col gap-2.5 px-4">
+      <div className="flex flex-wrap gap-2">
+        {MEAL_TYPES.map((m) => (
+          <Pill key={m.value} active={filters.mealType === m.value} label={m.label} emoji={m.emoji} onClick={() => setMealType(m.value)} />
+        ))}
+      </div>
+      <div className="flex flex-wrap gap-2">
+        {HEALTH_MODES.map((h) => (
+          <Pill key={h.value} active={filters.healthMode === h.value} label={h.label} emoji={h.emoji} onClick={() => setHealthMode(h.value)} />
+        ))}
+      </div>
+      <div className="flex flex-wrap gap-2">
+        {VENUES.map((v) => (
+          <Pill key={v.value} active={filters.venues.includes(v.value)} label={v.label} emoji={v.emoji} onClick={() => toggleVenue(v.value)} />
+        ))}
+      </div>
+    </div>
+  );
+}
