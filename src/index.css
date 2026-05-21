@@ -1,7 +1,19 @@
 @import "tailwindcss";
 
+:root {
+  --orange: #FF6B35;
+  --orange-glow: rgba(255, 107, 53, 0.4);
+  --orange-bg: rgba(255, 107, 53, 0.08);
+  --orange-border: rgba(255, 107, 53, 0.3);
+  --bg-surface: #0F0F14;
+  --bg-card: #1A1A24;
+  --border-light: rgba(255, 255, 255, 0.08);
+  --teal: #2DD4BF;
+  --teal-bg: rgba(45, 212, 191, 0.1);
+}
+
 html, body {
-  background: #0F0F14;
+  background: var(--bg-surface);
   -webkit-tap-highlight-color: transparent;
 }
 

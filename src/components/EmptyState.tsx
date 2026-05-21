@@ -21,7 +21,7 @@ export function EmptyState({ onReset }: EmptyStateProps) {
         className="mt-2 min-h-[44px] px-6 rounded-full text-sm font-medium cursor-pointer"
         style={{
           background: "rgba(255,107,53,0.15)",
-          color: "#FF6B35",
+          color: "var(--orange)",
           border: "1px solid rgba(255,107,53,0.25)",
         }}
       >

@@ -14,7 +14,7 @@ function FoodImage({ food }: { food: FoodItem }) {
   const [error, setError] = useState(false);
 
   return (
-    <div className="relative aspect-[16/10] overflow-hidden rounded-t-2xl" style={{ background: "#1A1A24" }}>
+    <div className="relative aspect-[16/10] overflow-hidden rounded-t-2xl" style={{ background: "var(--bg-card)" }}>
       <AnimatePresence>
         {(!loaded || error) && (
           <motion.div
@@ -23,7 +23,7 @@ function FoodImage({ food }: { food: FoodItem }) {
             exit={{ opacity: 0 }}
             transition={{ duration: 0.4 }}
             className="absolute inset-0 flex items-center justify-center"
-            style={{ background: "rgba(255,107,53,0.08)" }}
+            style={{ background: "var(--orange-bg)" }}
           >
             <span className="text-6xl">{food.emoji}</span>
           </motion.div>
@@ -46,19 +46,26 @@ function FoodImage({ food }: { food: FoodItem }) {
   );
 }
 
-export function FoodCard({ food, ghost }: { food: FoodItem; ghost?: boolean }) {
+interface FoodCardProps {
+  food: FoodItem;
+  ghost?: boolean;
+  recentLabel?: string;
+  onFindNearby?: () => void;
+}
+
+export function FoodCard({ food, ghost, recentLabel, onFindNearby }: FoodCardProps) {
   if (ghost) {
     return (
       <div
         className="w-full rounded-2xl overflow-hidden"
         style={{
-          background: "#1A1A24",
-          border: "1px solid rgba(255,255,255,0.08)",
+          background: "var(--bg-card)",
+          border: "1px solid var(--border-light)",
           filter: "blur(4px)",
           opacity: 0.6,
         }}
       >
-        <div className="aspect-[16/10] flex items-center justify-center" style={{ background: "rgba(255,107,53,0.08)" }}>
+        <div className="aspect-[16/10] flex items-center justify-center" style={{ background: "var(--orange-bg)" }}>
           <span className="text-5xl">{food.emoji}</span>
         </div>
         <div className="px-5 py-4">
@@ -68,18 +75,28 @@ export function FoodCard({ food, ghost }: { food: FoodItem; ghost?: boolean }) {
     );
   }
 
+  const showFindNearby = onFindNearby && food.availableAt.some((v) => v === "street" || v === "restaurant");
+
   return (
     <div
       className="w-full rounded-2xl overflow-hidden"
       style={{
-        background: "#1A1A24",
-        border: "1px solid rgba(255,255,255,0.08)",
+        background: "var(--bg-card)",
+        border: "1px solid var(--border-light)",
         boxShadow: "0 8px 32px rgba(0,0,0,0.5)",
       }}
     >
       <FoodImage food={food} />
       <div className="px-5 py-4 flex flex-col gap-2.5">
         <div>
+          {recentLabel && (
+            <span
+              className="text-[11px] px-2 py-0.5 rounded-full mb-1 inline-block"
+              style={{ background: "rgba(251, 191, 36, 0.15)", color: "#FBBF24" }}
+            >
+              {recentLabel}
+            </span>
+          )}
           <h2 className="text-xl font-bold text-white">{food.nameTH}</h2>
           <p className="text-sm text-white/50">{food.nameEN}</p>
         </div>
@@ -92,10 +109,19 @@ export function FoodCard({ food, ghost }: { food: FoodItem; ghost?: boolean }) {
           ))}
         </div>
         <div className="flex items-center gap-3 text-sm">
-          <span style={{ color: "#FF6B35" }}>🔥 {food.calories} cal</span>
+          <span style={{ color: "var(--orange)" }}>🔥 {food.calories} cal</span>
           <span className="text-white/20">·</span>
           <span style={{ color: "#4ade80" }}>฿{food.priceMin}-{food.priceMax}</span>
         </div>
+        {showFindNearby && (
+          <button
+            onClick={onFindNearby}
+            className="w-full mt-1 py-2.5 rounded-xl text-sm font-medium transition-colors cursor-pointer"
+            style={{ background: "var(--orange-bg)", color: "var(--orange)", border: "none" }}
+          >
+            📍 หาร้านใกล้ฉัน
+          </button>
+        )}
       </div>
     </div>
   );

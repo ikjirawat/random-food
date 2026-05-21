@@ -19,8 +19,11 @@ export interface FoodItem {
 
 export type AppPhase = 'idle' | 'spinning' | 'result';
 
+export type BudgetMood = 'broke' | 'normal' | 'any';
+
 export interface FilterState {
   mealType: MealType | 'any';
   healthMode: HealthMode | 'any';
   availableAt: Venue | 'any';
+  budgetMood: BudgetMood;
 }
