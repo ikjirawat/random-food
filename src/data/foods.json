@@ -5,10 +5,16 @@
     "nameEN": "Rice Porridge",
     "emoji": "🍚",
     "description": "ข้าวต้มเปื่อยหอมๆ ใส่ไข่ หมูสับ ขิง โรยพริกไทย อุ่นท้องตอนเช้า",
-    "image": "https://images.unsplash.com/photo-1623476663367-66cf1126d357?w=400&h=250&fit=crop&auto=format",
+    "image": "https://images.unsplash.com/photo-1766761562530-c8dd12c96d9a?w=400&h=250&fit=crop&auto=format",
     "category": "healthy",
-    "mealTypes": ["breakfast"],
-    "availableAt": ["street", "restaurant", "home"],
+    "mealTypes": [
+      "breakfast"
+    ],
+    "availableAt": [
+      "street",
+      "restaurant",
+      "home"
+    ],
     "calories": 250,
     "priceMin": 30,
     "priceMax": 60
@@ -19,10 +25,17 @@
     "nameEN": "Rice Soup",
     "emoji": "🍲",
     "description": "ข้าวต้มน้ำใสๆ กินกับไข่เจียว หมูหยอง กุนเชียง อิ่มสบายท้อง",
-    "image": "https://images.unsplash.com/photo-1623476663364-12de7c8b8b8d?w=400&h=250&fit=crop&auto=format",
+    "image": "https://images.unsplash.com/photo-1778302089346-c5dbd38f3ac5?w=400&h=250&fit=crop&auto=format",
     "category": "healthy",
-    "mealTypes": ["breakfast", "dinner"],
-    "availableAt": ["street", "restaurant", "home"],
+    "mealTypes": [
+      "breakfast",
+      "dinner"
+    ],
+    "availableAt": [
+      "street",
+      "restaurant",
+      "home"
+    ],
     "calories": 280,
     "priceMin": 35,
     "priceMax": 70
@@ -33,10 +46,15 @@
     "nameEN": "Thai Donuts + Soy Milk",
     "emoji": "🥯",
     "description": "ปาท่องโก๋กรอบนอกนุ่มใน จิ้มนมถั่วเหลืองหวานมัน คลาสสิกตอนเช้า",
-    "image": "https://images.unsplash.com/photo-1552538962-40822613a09d?w=400&h=250&fit=crop&auto=format",
+    "image": "https://images.unsplash.com/photo-1692183989764-06fbaa36a2dd?w=400&h=250&fit=crop&auto=format",
     "category": "normal",
-    "mealTypes": ["breakfast", "snack"],
-    "availableAt": ["street"],
+    "mealTypes": [
+      "breakfast",
+      "snack"
+    ],
+    "availableAt": [
+      "street"
+    ],
     "calories": 350,
     "priceMin": 25,
     "priceMax": 45
@@ -47,10 +65,15 @@
     "nameEN": "7-11 Sandwich",
     "emoji": "🥪",
     "description": "แซนด์วิชสามเหลี่ยม ง่ายๆ สะดวก คว้าไปกินระหว่างทาง",
-    "image": "https://images.unsplash.com/photo-1628430044262-fb84cffbb744?w=400&h=250&fit=crop&auto=format",
+    "image": "https://images.unsplash.com/photo-1777891257542-69cbc9b7a6bc?w=400&h=250&fit=crop&auto=format",
     "category": "normal",
-    "mealTypes": ["breakfast", "snack"],
-    "availableAt": ["7-11"],
+    "mealTypes": [
+      "breakfast",
+      "snack"
+    ],
+    "availableAt": [
+      "7-11"
+    ],
     "calories": 280,
     "priceMin": 29,
     "priceMax": 49
@@ -61,10 +84,15 @@
     "nameEN": "Sticky Rice + Grilled Pork",
     "emoji": "🍖",
     "description": "หมูปิ้งหอมๆ เนื้อนุ่มชุ่มน้ำ กินกับข้าวเหนียวร้อนๆ อิ่มแน่น",
-    "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=400&h=250&fit=crop&auto=format",
+    "image": "https://images.unsplash.com/photo-1562828431-144c0ceaf740?w=400&h=250&fit=crop&auto=format",
     "category": "normal",
-    "mealTypes": ["breakfast", "lunch"],
-    "availableAt": ["street"],
+    "mealTypes": [
+      "breakfast",
+      "lunch"
+    ],
+    "availableAt": [
+      "street"
+    ],
     "calories": 450,
     "priceMin": 30,
     "priceMax": 60
@@ -77,8 +105,13 @@
     "description": "โอ๊ตมีลอุ่นๆ ใส่กล้วย น้ำผึ้ง ธัญพืช อิ่มนาน ไม่อ้วน",
     "image": "https://images.unsplash.com/photo-1610406765661-57646c40da59?w=400&h=250&fit=crop&auto=format",
     "category": "healthy",
-    "mealTypes": ["breakfast"],
-    "availableAt": ["home", "restaurant"],
+    "mealTypes": [
+      "breakfast"
+    ],
+    "availableAt": [
+      "home",
+      "restaurant"
+    ],
     "calories": 200,
     "priceMin": 20,
     "priceMax": 80
@@ -91,8 +124,14 @@
     "description": "ไข่ดาวกระทะร้อนๆ ใส่หมูสับ กุนเชียง ขนมปังปิ้ง ครบจบในกระทะเดียว",
     "image": "https://images.unsplash.com/photo-1628484641099-0e7ae67fbdc1?w=400&h=250&fit=crop&auto=format",
     "category": "normal",
-    "mealTypes": ["breakfast"],
-    "availableAt": ["street", "restaurant", "home"],
+    "mealTypes": [
+      "breakfast"
+    ],
+    "availableAt": [
+      "street",
+      "restaurant",
+      "home"
+    ],
     "calories": 400,
     "priceMin": 40,
     "priceMax": 80
@@ -105,8 +144,14 @@
     "description": "ขนมปังปิ้งกรอบ ทาเนย โรยน้ำตาล หรือแยมสังขยา อร่อยง่ายๆ",
     "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=400&h=250&fit=crop&auto=format",
     "category": "normal",
-    "mealTypes": ["breakfast", "snack"],
-    "availableAt": ["home", "street"],
+    "mealTypes": [
+      "breakfast",
+      "snack"
+    ],
+    "availableAt": [
+      "home",
+      "street"
+    ],
     "calories": 220,
     "priceMin": 15,
     "priceMax": 40
@@ -119,8 +164,14 @@
     "description": "โยเกิร์ตเย็นๆ โรยกราโนล่ากรุบ ผลไม้สด สุขภาพดีไม่ต้องพยายาม",
     "image": "https://images.unsplash.com/photo-1612182062572-e29c5dfb5eb4?w=400&h=250&fit=crop&auto=format",
     "category": "healthy",
-    "mealTypes": ["breakfast", "snack"],
-    "availableAt": ["home", "restaurant"],
+    "mealTypes": [
+      "breakfast",
+      "snack"
+    ],
+    "availableAt": [
+      "home",
+      "restaurant"
+    ],
     "calories": 180,
     "priceMin": 40,
     "priceMax": 120
@@ -133,8 +184,15 @@
     "description": "กาแฟเข้มข้น ใส่นมข้นหวาน เย็นชื่นใจ ตื่นแน่ทุกเช้า",
     "image": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=400&h=250&fit=crop&auto=format",
     "category": "normal",
-    "mealTypes": ["breakfast", "snack"],
-    "availableAt": ["street", "7-11", "restaurant"],
+    "mealTypes": [
+      "breakfast",
+      "snack"
+    ],
+    "availableAt": [
+      "street",
+      "7-11",
+      "restaurant"
+    ],
     "calories": 150,
     "priceMin": 25,
     "priceMax": 80
@@ -145,10 +203,16 @@
     "nameEN": "Chicken Rice",
     "emoji": "🍗",
     "description": "ข้าวหอมมัน ไก่ต้มนุ่ม น้ำจิ้มเด็ด อิ่มง่ายไม่แพง",
-    "image": "https://images.unsplash.com/photo-1569058242567-93de6f36f8e6?w=400&h=250&fit=crop&auto=format",
+    "image": "https://images.unsplash.com/photo-1749640566096-5d8098d452b4?w=400&h=250&fit=crop&auto=format",
     "category": "normal",
-    "mealTypes": ["lunch", "dinner"],
-    "availableAt": ["street", "restaurant"],
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "availableAt": [
+      "street",
+      "restaurant"
+    ],
     "calories": 550,
     "priceMin": 40,
     "priceMax": 80
@@ -161,8 +225,14 @@
     "description": "เส้นผัดไทยหอมไฟแรง ใส่กุ้ง เต้าหู้ ถั่วงอก บีบมะนาว โรยถั่วป่น",
     "image": "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=400&h=250&fit=crop&auto=format",
     "category": "normal",
-    "mealTypes": ["lunch", "dinner"],
-    "availableAt": ["street", "restaurant"],
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "availableAt": [
+      "street",
+      "restaurant"
+    ],
     "calories": 500,
     "priceMin": 40,
     "priceMax": 100
@@ -175,8 +245,15 @@
     "description": "ข้าวผัดร้อนๆ ไข่สวย หอมกระเทียม เมนูง่ายที่ไม่มีวันเบื่อ",
     "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=400&h=250&fit=crop&auto=format",
     "category": "normal",
-    "mealTypes": ["lunch", "dinner"],
-    "availableAt": ["street", "restaurant", "home"],
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "availableAt": [
+      "street",
+      "restaurant",
+      "home"
+    ],
     "calories": 520,
     "priceMin": 40,
     "priceMax": 80
@@ -189,8 +266,14 @@
     "description": "น้ำซุปใส เส้นเลือกได้ ใส่ลูกชิ้น หมูสับ ผักชี อร่อยทุกเส้น",
     "image": "https://images.unsplash.com/photo-1555126634-323283e090fa?w=400&h=250&fit=crop&auto=format",
     "category": "normal",
-    "mealTypes": ["lunch", "dinner"],
-    "availableAt": ["street", "restaurant"],
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "availableAt": [
+      "street",
+      "restaurant"
+    ],
     "calories": 400,
     "priceMin": 40,
     "priceMax": 80
@@ -203,8 +286,14 @@
     "description": "ส้มตำรสจัดจ้าน เปรี้ยว เผ็ด กินกับข้าวเหนียวนุ่มๆ ลงตัวสุด",
     "image": "https://images.unsplash.com/photo-1562565652-a0d8f0c59eb4?w=400&h=250&fit=crop&auto=format",
     "category": "healthy",
-    "mealTypes": ["lunch", "dinner"],
-    "availableAt": ["street", "restaurant"],
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "availableAt": [
+      "street",
+      "restaurant"
+    ],
     "calories": 350,
     "priceMin": 40,
     "priceMax": 80
@@ -215,10 +304,15 @@
     "nameEN": "7-11 Bento Box",
     "emoji": "🍱",
     "description": "ข้าวกล่องไมโครเวฟ สะดวก อิ่มง่าย ราคาไม่แพง เลือกได้หลายเมนู",
-    "image": "https://images.unsplash.com/photo-1628432019204-459ad6e35c9c?w=400&h=250&fit=crop&auto=format",
+    "image": "https://images.unsplash.com/photo-1696677049263-cc38af1c7681?w=400&h=250&fit=crop&auto=format",
     "category": "normal",
-    "mealTypes": ["lunch", "dinner"],
-    "availableAt": ["7-11"],
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "availableAt": [
+      "7-11"
+    ],
     "calories": 500,
     "priceMin": 39,
     "priceMax": 69
@@ -229,10 +323,16 @@
     "nameEN": "Red Pork Rice",
     "emoji": "🍖",
     "description": "หมูแดงหวานมัน หมูกรอบกรุบ ราดน้ำแดงเข้มข้น ข้าวร้อนๆ หอมกลิ่นรมควัน",
-    "image": "https://images.unsplash.com/photo-1679279726937-122c49626802?w=400&h=250&fit=crop&auto=format",
+    "image": "https://images.unsplash.com/photo-1715692728122-50b4494e0a0f?w=400&h=250&fit=crop&auto=format",
     "category": "normal",
-    "mealTypes": ["lunch", "dinner"],
-    "availableAt": ["street", "restaurant"],
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "availableAt": [
+      "street",
+      "restaurant"
+    ],
     "calories": 600,
     "priceMin": 50,
     "priceMax": 100
@@ -245,8 +345,15 @@
     "description": "กะเพราหมูสับไข่ดาว ผัดไฟแรง กลิ่นใบกะเพราหอมฟุ้ง จานนี้ไม่มีผิดหวัง",
     "image": "https://images.unsplash.com/photo-1627308595186-e6bb36712645?w=400&h=250&fit=crop&auto=format",
     "category": "normal",
-    "mealTypes": ["lunch", "dinner"],
-    "availableAt": ["street", "restaurant", "home"],
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "availableAt": [
+      "street",
+      "restaurant",
+      "home"
+    ],
     "calories": 600,
     "priceMin": 40,
     "priceMax": 80
@@ -257,10 +364,15 @@
     "nameEN": "Shrimp Paste Fried Rice",
     "emoji": "🍚",
     "description": "ข้าวคลุกกะปิหอมเข้มข้น เครื่องเคียงจัดเต็ม หมูหวาน กุ้งแห้ง พริกขี้หนู",
-    "image": "https://images.unsplash.com/photo-1609570324378-ec0c4c9b6ba8?w=400&h=250&fit=crop&auto=format",
+    "image": "https://images.unsplash.com/photo-1589942151968-89bfe5d60c61?w=400&h=250&fit=crop&auto=format",
     "category": "normal",
-    "mealTypes": ["lunch"],
-    "availableAt": ["street", "restaurant"],
+    "mealTypes": [
+      "lunch"
+    ],
+    "availableAt": [
+      "street",
+      "restaurant"
+    ],
     "calories": 550,
     "priceMin": 50,
     "priceMax": 90
@@ -273,8 +385,14 @@
     "description": "แกงกะทิหอมๆ พริกแกงเขียวหวาน เนื้อเปื่อย กินกับขนมจีนก็ดี",
     "image": "https://images.unsplash.com/photo-1707056924965-2c687206af67?w=400&h=250&fit=crop&auto=format",
     "category": "normal",
-    "mealTypes": ["lunch", "dinner"],
-    "availableAt": ["restaurant", "home"],
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "availableAt": [
+      "restaurant",
+      "home"
+    ],
     "calories": 500,
     "priceMin": 50,
     "priceMax": 120
@@ -285,10 +403,14 @@
     "nameEN": "Tom Yum Goong",
     "emoji": "🦐",
     "description": "ต้มยำรสเด็ด กุ้งแม่น้ำตัวใหญ่ เปรี้ยวเผ็ดจัดจ้าน น้ำซุปข้นกลมกล่อม",
-    "image": "https://images.unsplash.com/photo-1628430043175-0e8820df47c3?w=400&h=250&fit=crop&auto=format",
+    "image": "https://images.unsplash.com/photo-1584181365317-88d2a10b4414?w=400&h=250&fit=crop&auto=format",
     "category": "normal",
-    "mealTypes": ["dinner"],
-    "availableAt": ["restaurant"],
+    "mealTypes": [
+      "dinner"
+    ],
+    "availableAt": [
+      "restaurant"
+    ],
     "calories": 300,
     "priceMin": 80,
     "priceMax": 250
@@ -299,10 +421,14 @@
     "nameEN": "Thai BBQ Buffet",
     "emoji": "🥩",
     "description": "ปิ้งย่าง+ชาบูในกระทะเดียว เนื้อ หมู ซีฟู้ด ผัก กินเท่าไหร่ก็ได้ สังสรรค์สุดมันส์",
-    "image": "https://images.unsplash.com/photo-1702012464343-a9966c1a9ead?w=400&h=250&fit=crop&auto=format",
+    "image": "https://images.unsplash.com/photo-1663856671936-1e57cf33de12?w=400&h=250&fit=crop&auto=format",
     "category": "normal",
-    "mealTypes": ["dinner"],
-    "availableAt": ["restaurant"],
+    "mealTypes": [
+      "dinner"
+    ],
+    "availableAt": [
+      "restaurant"
+    ],
     "calories": 800,
     "priceMin": 159,
     "priceMax": 299
@@ -315,8 +441,12 @@
     "description": "น้ำซุปร้อนๆ จุ่มเนื้อ ผัก เส้น เต้าหู้ น้ำจิ้มสูตรเด็ด กินไม่หยุด",
     "image": "https://images.unsplash.com/photo-1614104030967-5ca61a54247b?w=400&h=250&fit=crop&auto=format",
     "category": "normal",
-    "mealTypes": ["dinner"],
-    "availableAt": ["restaurant"],
+    "mealTypes": [
+      "dinner"
+    ],
+    "availableAt": [
+      "restaurant"
+    ],
     "calories": 600,
     "priceMin": 199,
     "priceMax": 399
@@ -329,8 +459,12 @@
     "description": "สเต็กเนื้อย่างร้อนๆ บนจานเหล็ก ราดซอสพริกไทยดำ มันฝรั่งอบ สุดฟิน",
     "image": "https://images.unsplash.com/photo-1600891964092-4316c288032e?w=400&h=250&fit=crop&auto=format",
     "category": "normal",
-    "mealTypes": ["dinner"],
-    "availableAt": ["restaurant"],
+    "mealTypes": [
+      "dinner"
+    ],
+    "availableAt": [
+      "restaurant"
+    ],
     "calories": 700,
     "priceMin": 120,
     "priceMax": 350
@@ -343,8 +477,14 @@
     "description": "พิซซ่าชีสยืดๆ ท็อปปิ้งเต็ม หน้ากรอบ สั่งแชร์กันทั้งบ้าน",
     "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=400&h=250&fit=crop&auto=format",
     "category": "normal",
-    "mealTypes": ["lunch", "dinner"],
-    "availableAt": ["restaurant", "home"],
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "availableAt": [
+      "restaurant",
+      "home"
+    ],
     "calories": 650,
     "priceMin": 99,
     "priceMax": 299
@@ -357,8 +497,13 @@
     "description": "บะหมี่แกงกะทิสไตล์เหนือ เส้นนุ่ม+กรอบ ไก่เปื่อย พริกน้ำมันคู่หูไม่มีพลาด",
     "image": "https://images.unsplash.com/photo-1675150277436-9c7348972c11?w=400&h=250&fit=crop&auto=format",
     "category": "normal",
-    "mealTypes": ["lunch", "dinner"],
-    "availableAt": ["restaurant"],
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "availableAt": [
+      "restaurant"
+    ],
     "calories": 550,
     "priceMin": 50,
     "priceMax": 100
@@ -369,10 +514,16 @@
     "nameEN": "Spicy Pork Salad",
     "emoji": "🥬",
     "description": "ลาบหมูสับรสจัด ข้าวคั่วหอม พริกป่น มะนาว แซ่บนัวอีสานแท้",
-    "image": "https://images.unsplash.com/photo-1628428798453-b683244488d5?w=400&h=250&fit=crop&auto=format",
+    "image": "https://images.unsplash.com/photo-1662107020287-0e208c5081ac?w=400&h=250&fit=crop&auto=format",
     "category": "healthy",
-    "mealTypes": ["lunch", "dinner"],
-    "availableAt": ["street", "restaurant"],
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "availableAt": [
+      "street",
+      "restaurant"
+    ],
     "calories": 300,
     "priceMin": 40,
     "priceMax": 80
@@ -383,10 +534,16 @@
     "nameEN": "Grilled Pork Salad",
     "emoji": "🥩",
     "description": "หมูย่างหั่นชิ้นคลุกน้ำจิ้มแจ่ว เผ็ดแซ่บ ข้าวคั่วกรุบ กินกับข้าวเหนียวเด็ดมาก",
-    "image": "https://images.unsplash.com/photo-1625944228126-74f9d9ae77e3?w=400&h=250&fit=crop&auto=format",
+    "image": "https://images.unsplash.com/photo-1647706155273-635630093fbc?w=400&h=250&fit=crop&auto=format",
     "category": "normal",
-    "mealTypes": ["lunch", "dinner"],
-    "availableAt": ["street", "restaurant"],
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "availableAt": [
+      "street",
+      "restaurant"
+    ],
     "calories": 350,
     "priceMin": 50,
     "priceMax": 90
@@ -397,10 +554,14 @@
     "nameEN": "Fish Sauce Fried Fish",
     "emoji": "🐟",
     "description": "ปลากะพงทอดกรอบ ราดน้ำปลาหวาน โรยกระเทียมเจียว มะม่วงดิบซอยสดๆ",
-    "image": "https://images.unsplash.com/photo-1579208030886-b937da0925dc?w=400&h=250&fit=crop&auto=format",
+    "image": "https://images.unsplash.com/photo-1765265432611-17d3f2da2d5d?w=400&h=250&fit=crop&auto=format",
     "category": "normal",
-    "mealTypes": ["dinner"],
-    "availableAt": ["restaurant"],
+    "mealTypes": [
+      "dinner"
+    ],
+    "availableAt": [
+      "restaurant"
+    ],
     "calories": 450,
     "priceMin": 100,
     "priceMax": 250
@@ -411,10 +572,16 @@
     "nameEN": "Sour Curry",
     "emoji": "🍛",
     "description": "แกงส้มรสเปรี้ยวจี๊ด ผักรวม กุ้ง ปลา ซดน้ำแกงร้อนๆ อิ่มท้องสบายใจ",
-    "image": "https://plus.unsplash.com/premium_photo-1669150849084-a8bdc4ca3aa8?w=400&h=250&fit=crop&auto=format",
+    "image": "https://images.unsplash.com/photo-1564675454013-6e68e6a8c0c6?w=400&h=250&fit=crop&auto=format",
     "category": "healthy",
-    "mealTypes": ["lunch", "dinner"],
-    "availableAt": ["restaurant", "home"],
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "availableAt": [
+      "restaurant",
+      "home"
+    ],
     "calories": 250,
     "priceMin": 50,
     "priceMax": 100
@@ -425,10 +592,15 @@
     "nameEN": "7-11 Onigiri",
     "emoji": "🍙",
     "description": "ข้าวปั้นสาหร่าย ไส้เยอะ สะดวกพกไป กินเป็นของว่างระหว่างวัน",
-    "image": "https://images.unsplash.com/photo-1644131447497-8723db691320?w=400&h=250&fit=crop&auto=format",
+    "image": "https://images.unsplash.com/photo-1696463469919-def9b2830857?w=400&h=250&fit=crop&auto=format",
     "category": "normal",
-    "mealTypes": ["snack", "lunch"],
-    "availableAt": ["7-11"],
+    "mealTypes": [
+      "snack",
+      "lunch"
+    ],
+    "availableAt": [
+      "7-11"
+    ],
     "calories": 200,
     "priceMin": 25,
     "priceMax": 39
@@ -439,10 +611,14 @@
     "nameEN": "Fried Meatballs",
     "emoji": "🧆",
     "description": "ลูกชิ้นเสียบไม้ทอดกรอบ จิ้มซอสเผ็ดหวาน ของว่างริมทางสุดคลาสสิก",
-    "image": "https://images.unsplash.com/photo-1672934325197-e039291c7b46?w=400&h=250&fit=crop&auto=format",
+    "image": "https://images.unsplash.com/photo-1771573754203-7142e6e55aea?w=400&h=250&fit=crop&auto=format",
     "category": "normal",
-    "mealTypes": ["snack"],
-    "availableAt": ["street"],
+    "mealTypes": [
+      "snack"
+    ],
+    "availableAt": [
+      "street"
+    ],
     "calories": 250,
     "priceMin": 10,
     "priceMax": 30
@@ -453,10 +629,15 @@
     "nameEN": "Coconut Pancakes",
     "emoji": "🥞",
     "description": "ขนมครกกรอบนอกนุ่มใน หอมมะพร้าว ใส่ต้นหอม ข้าวโพด หวานมันกำลังดี",
-    "image": "https://plus.unsplash.com/premium_photo-1672846027109-e2c91500afef?w=400&h=250&fit=crop&auto=format",
+    "image": "https://images.unsplash.com/photo-1591931026160-51d017fa1e11?w=400&h=250&fit=crop&auto=format",
     "category": "normal",
-    "mealTypes": ["snack", "breakfast"],
-    "availableAt": ["street"],
+    "mealTypes": [
+      "snack",
+      "breakfast"
+    ],
+    "availableAt": [
+      "street"
+    ],
     "calories": 200,
     "priceMin": 20,
     "priceMax": 40
@@ -467,10 +648,14 @@
     "nameEN": "Thai Roti",
     "emoji": "🫓",
     "description": "โรตีกรอบนอกนุ่มใน ราดนมข้นหวาน โรยน้ำตาล หรือใส่กล้วย ไข่ ช็อกโกแลต",
-    "image": "https://images.unsplash.com/photo-1640625314547-aee9a7696589?w=400&h=250&fit=crop&auto=format",
+    "image": "https://images.unsplash.com/photo-1599232288126-7dbd2127db14?w=400&h=250&fit=crop&auto=format",
     "category": "normal",
-    "mealTypes": ["snack"],
-    "availableAt": ["street"],
+    "mealTypes": [
+      "snack"
+    ],
+    "availableAt": [
+      "street"
+    ],
     "calories": 350,
     "priceMin": 20,
     "priceMax": 50
@@ -483,8 +668,13 @@
     "description": "ชานมเย็นหวานมัน ไข่มุกเหนียวนุ่ม ดูดทีไรก็สุขใจทุกที",
     "image": "https://images.unsplash.com/photo-1558857563-b371033873b8?w=400&h=250&fit=crop&auto=format",
     "category": "normal",
-    "mealTypes": ["snack"],
-    "availableAt": ["street", "restaurant"],
+    "mealTypes": [
+      "snack"
+    ],
+    "availableAt": [
+      "street",
+      "restaurant"
+    ],
     "calories": 300,
     "priceMin": 35,
     "priceMax": 75
@@ -497,8 +687,14 @@
     "description": "ไอศกรีมเย็นชื่นใจ เลือกรสได้ กะทิ มะม่วง ช็อกโกแลต ของหวานปิดท้ายวัน",
     "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=400&h=250&fit=crop&auto=format",
     "category": "normal",
-    "mealTypes": ["snack"],
-    "availableAt": ["7-11", "street", "restaurant"],
+    "mealTypes": [
+      "snack"
+    ],
+    "availableAt": [
+      "7-11",
+      "street",
+      "restaurant"
+    ],
     "calories": 250,
     "priceMin": 20,
     "priceMax": 80
@@ -511,8 +707,14 @@
     "description": "ผลไม้สดตามฤดูกาล แตงโม สับปะรด มะม่วง ฝรั่ง สดชื่นวิตามินเต็ม",
     "image": "https://images.unsplash.com/photo-1641642400143-6be68f1a0918?w=400&h=250&fit=crop&auto=format",
     "category": "healthy",
-    "mealTypes": ["snack"],
-    "availableAt": ["street", "home", "7-11"],
+    "mealTypes": [
+      "snack"
+    ],
+    "availableAt": [
+      "street",
+      "home",
+      "7-11"
+    ],
     "calories": 100,
     "priceMin": 20,
     "priceMax": 50
@@ -523,10 +725,16 @@
     "nameEN": "Roasted Peanuts",
     "emoji": "🥜",
     "description": "ถั่วลิสงคั่วเกลือ กรุบกรอบ กินเพลินๆ ได้โปรตีนด้วย",
-    "image": "https://images.unsplash.com/photo-1628428800730-43b0f1246a0f?w=400&h=250&fit=crop&auto=format",
+    "image": "https://images.unsplash.com/photo-1596503799872-5c5f052c27b9?w=400&h=250&fit=crop&auto=format",
     "category": "healthy",
-    "mealTypes": ["snack"],
-    "availableAt": ["7-11", "street", "home"],
+    "mealTypes": [
+      "snack"
+    ],
+    "availableAt": [
+      "7-11",
+      "street",
+      "home"
+    ],
     "calories": 160,
     "priceMin": 15,
     "priceMax": 35
@@ -539,8 +747,13 @@
     "description": "มันฝรั่งทอดกรอบ จิ้มซอสมะเขือเทศ ของว่างที่ใครๆ ก็ชอบ",
     "image": "https://images.unsplash.com/photo-1630384060421-cb20d0e0649d?w=400&h=250&fit=crop&auto=format",
     "category": "normal",
-    "mealTypes": ["snack"],
-    "availableAt": ["7-11", "restaurant"],
+    "mealTypes": [
+      "snack"
+    ],
+    "availableAt": [
+      "7-11",
+      "restaurant"
+    ],
     "calories": 300,
     "priceMin": 29,
     "priceMax": 79
@@ -551,10 +764,15 @@
     "nameEN": "Japanese Crepe",
     "emoji": "🥞",
     "description": "เครปบางกรอบ ไส้วิปครีม ผลไม้ ช็อกโกแลต พับกินสะดวก หวานพอดี",
-    "image": "https://images.unsplash.com/photo-1655562546244-f54950d0858a?w=400&h=250&fit=crop&auto=format",
+    "image": "https://images.unsplash.com/photo-1593233124244-e06db310a292?w=400&h=250&fit=crop&auto=format",
     "category": "normal",
-    "mealTypes": ["snack"],
-    "availableAt": ["street", "restaurant"],
+    "mealTypes": [
+      "snack"
+    ],
+    "availableAt": [
+      "street",
+      "restaurant"
+    ],
     "calories": 280,
     "priceMin": 35,
     "priceMax": 80
@@ -567,8 +785,14 @@
     "description": "สลัดผักสดๆ อกไก่ย่างหั่นชิ้น ราดน้ำสลัด สุขภาพดีอิ่มนาน",
     "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=250&fit=crop&auto=format",
     "category": "healthy",
-    "mealTypes": ["lunch", "dinner"],
-    "availableAt": ["restaurant", "home"],
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "availableAt": [
+      "restaurant",
+      "home"
+    ],
     "calories": 250,
     "priceMin": 60,
     "priceMax": 150
@@ -579,10 +803,16 @@
     "nameEN": "Brown Rice + Chicken Breast",
     "emoji": "🍚",
     "description": "ข้าวกล้องหุง อกไก่นึ่งหรือย่าง บร็อกโคลีลวก คลีนจัดเต็ม",
-    "image": "https://images.unsplash.com/photo-1570275239925-4af0aa93a0dc?w=400&h=250&fit=crop&auto=format",
+    "image": "https://images.unsplash.com/photo-1562036409-9dcc48472e29?w=400&h=250&fit=crop&auto=format",
     "category": "healthy",
-    "mealTypes": ["lunch", "dinner"],
-    "availableAt": ["home", "restaurant"],
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "availableAt": [
+      "home",
+      "restaurant"
+    ],
     "calories": 350,
     "priceMin": 50,
     "priceMax": 120
@@ -595,8 +825,14 @@
     "description": "สมูทตี้ผลไม้ปั่นเย็นๆ กล้วย เบอร์รี่ นม สดชื่นได้วิตามินครบ",
     "image": "https://images.unsplash.com/photo-1622597467836-f3285f2131b8?w=400&h=250&fit=crop&auto=format",
     "category": "healthy",
-    "mealTypes": ["breakfast", "snack"],
-    "availableAt": ["restaurant", "home"],
+    "mealTypes": [
+      "breakfast",
+      "snack"
+    ],
+    "availableAt": [
+      "restaurant",
+      "home"
+    ],
     "calories": 180,
     "priceMin": 50,
     "priceMax": 120
@@ -607,10 +843,16 @@
     "nameEN": "Whole Wheat Sandwich",
     "emoji": "🥪",
     "description": "ขนมปังโฮลวีต ไส้อกไก่ ผัก มายองเนสนิดหน่อย อิ่มดีไม่อ้วน",
-    "image": "https://images.unsplash.com/photo-1574926054530-540288c8e678?w=400&h=250&fit=crop&auto=format",
+    "image": "https://images.unsplash.com/photo-1626414375186-12406f7e95f1?w=400&h=250&fit=crop&auto=format",
     "category": "healthy",
-    "mealTypes": ["breakfast", "lunch"],
-    "availableAt": ["home", "7-11"],
+    "mealTypes": [
+      "breakfast",
+      "lunch"
+    ],
+    "availableAt": [
+      "home",
+      "7-11"
+    ],
     "calories": 300,
     "priceMin": 35,
     "priceMax": 80
@@ -621,10 +863,16 @@
     "nameEN": "Vegetable Soup",
     "emoji": "🍵",
     "description": "ซุปผักใสร้อนๆ แครอท ข้าวโพด บร็อกโคลี่ มันฝรั่ง อุ่นท้อง แคลน้อย",
-    "image": "https://images.unsplash.com/photo-1684866907269-2248f7334a09?w=400&h=250&fit=crop&auto=format",
+    "image": "https://images.unsplash.com/photo-1643786661490-966f1877effa?w=400&h=250&fit=crop&auto=format",
     "category": "healthy",
-    "mealTypes": ["lunch", "dinner"],
-    "availableAt": ["home", "restaurant"],
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "availableAt": [
+      "home",
+      "restaurant"
+    ],
     "calories": 150,
     "priceMin": 30,
     "priceMax": 80
@@ -635,10 +883,16 @@
     "nameEN": "Glass Noodle Salad",
     "emoji": "🥗",
     "description": "ยำวุ้นเส้นรสแซ่บ กุ้ง หมูสับ มะเขือเทศ ต้นหอม เปรี้ยวเผ็ดจัดจ้าน",
-    "image": "https://images.unsplash.com/photo-1681740722342-180eddba5f4a?w=400&h=250&fit=crop&auto=format",
+    "image": "https://images.unsplash.com/photo-1587206668170-5206b8f0bbf2?w=400&h=250&fit=crop&auto=format",
     "category": "healthy",
-    "mealTypes": ["lunch", "dinner"],
-    "availableAt": ["street", "restaurant"],
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "availableAt": [
+      "street",
+      "restaurant"
+    ],
     "calories": 200,
     "priceMin": 50,
     "priceMax": 100
@@ -649,10 +903,16 @@
     "nameEN": "Soy Sauce Noodles",
     "emoji": "🍜",
     "description": "เส้นใหญ่ผัดซีอิ๊วไฟแรง คะน้ากรอบ ไข่สวย หอมซีอิ๊วดำหวาน",
-    "image": "https://images.unsplash.com/photo-1637806930600-37fa8892069d?w=400&h=250&fit=crop&auto=format",
+    "image": "https://images.unsplash.com/photo-1672842035316-d21a9a5614d1?w=400&h=250&fit=crop&auto=format",
     "category": "normal",
-    "mealTypes": ["lunch", "dinner"],
-    "availableAt": ["street", "restaurant"],
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "availableAt": [
+      "street",
+      "restaurant"
+    ],
     "calories": 500,
     "priceMin": 40,
     "priceMax": 80
@@ -665,8 +925,14 @@
     "description": "แกงมัสมั่นไก่ น้ำแกงข้นกะทิ มันฝรั่ง ถั่วลิสง หอมเครื่องเทศอ่อนๆ",
     "image": "https://plus.unsplash.com/premium_photo-1694699354443-289006ee7362?w=400&h=250&fit=crop&auto=format",
     "category": "normal",
-    "mealTypes": ["lunch", "dinner"],
-    "availableAt": ["restaurant", "home"],
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "availableAt": [
+      "restaurant",
+      "home"
+    ],
     "calories": 550,
     "priceMin": 50,
     "priceMax": 120
@@ -679,8 +945,13 @@
     "description": "ปลาเผาเกลือทั้งตัว เนื้อนุ่มหอม แกะกินกับน้ำจิ้มซีฟู้ด สดใหม่จากเตา",
     "image": "https://images.unsplash.com/photo-1548704087-b11dab0fbec0?w=400&h=250&fit=crop&auto=format",
     "category": "healthy",
-    "mealTypes": ["dinner"],
-    "availableAt": ["street", "restaurant"],
+    "mealTypes": [
+      "dinner"
+    ],
+    "availableAt": [
+      "street",
+      "restaurant"
+    ],
     "calories": 350,
     "priceMin": 100,
     "priceMax": 200
@@ -691,10 +962,16 @@
     "nameEN": "Pork Satay",
     "emoji": "🍢",
     "description": "หมูสะเต๊ะเสียบไม้ย่างไฟอ่อน หอมขมิ้น จิ้มน้ำจิ้มถั่วเข้มข้น กินกับอาจาด",
-    "image": "https://images.unsplash.com/photo-1679541946014-a47f1ec0dc1a?w=400&h=250&fit=crop&auto=format",
+    "image": "https://images.unsplash.com/photo-1645696301019-35adcc18fc21?w=400&h=250&fit=crop&auto=format",
     "category": "normal",
-    "mealTypes": ["snack", "dinner"],
-    "availableAt": ["street", "restaurant"],
+    "mealTypes": [
+      "snack",
+      "dinner"
+    ],
+    "availableAt": [
+      "street",
+      "restaurant"
+    ],
     "calories": 300,
     "priceMin": 30,
     "priceMax": 80
@@ -707,8 +984,13 @@
     "description": "ข้าวเหนียวมูนนุ่ม ราดกะทิหวานมัน มะม่วงสุกหอมหวาน ของหวานไทยระดับตำนาน",
     "image": "https://images.unsplash.com/photo-1711161988375-da7eff032e45?w=400&h=250&fit=crop&auto=format",
     "category": "normal",
-    "mealTypes": ["snack"],
-    "availableAt": ["street", "restaurant"],
+    "mealTypes": [
+      "snack"
+    ],
+    "availableAt": [
+      "street",
+      "restaurant"
+    ],
     "calories": 400,
     "priceMin": 50,
     "priceMax": 120
@@ -719,10 +1001,15 @@
     "nameEN": "Thai Papaya Salad (No Crab)",
     "emoji": "🥗",
     "description": "ส้มตำไทยรสเปรี้ยวหวาน ถั่วลิสง กุ้งแห้ง มะเขือเทศ ไม่จัดมาก คลีนได้",
-    "image": "https://images.unsplash.com/photo-1675150303909-1bb94e33132f?w=400&h=250&fit=crop&auto=format",
+    "image": "https://images.unsplash.com/photo-1675794368713-3bde182adff8?w=400&h=250&fit=crop&auto=format",
     "category": "healthy",
-    "mealTypes": ["lunch"],
-    "availableAt": ["street", "restaurant"],
+    "mealTypes": [
+      "lunch"
+    ],
+    "availableAt": [
+      "street",
+      "restaurant"
+    ],
     "calories": 180,
     "priceMin": 40,
     "priceMax": 70
@@ -733,10 +1020,16 @@
     "nameEN": "Clear Soup",
     "emoji": "🍲",
     "description": "แกงจืดเต้าหู้หมูสับ ผักกาดขาว น้ำซุปใสร้อนๆ อร่อยง่ายๆ ไม่มีน้ำมัน",
-    "image": "https://images.unsplash.com/photo-1612108438004-257c47560118?w=400&h=250&fit=crop&auto=format",
+    "image": "https://images.unsplash.com/photo-1554054204-b2f70b09d031?w=400&h=250&fit=crop&auto=format",
     "category": "healthy",
-    "mealTypes": ["lunch", "dinner"],
-    "availableAt": ["home", "restaurant"],
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "availableAt": [
+      "home",
+      "restaurant"
+    ],
     "calories": 150,
     "priceMin": 30,
     "priceMax": 60
@@ -747,10 +1040,17 @@
     "nameEN": "Stir-Fried Mixed Vegetables",
     "emoji": "🥦",
     "description": "ผัดผักรวมมิตร คะน้า ถั่วลันเตา แครอท เห็ด น้ำมันหอย ผัดไฟแรง กรอบอร่อย",
-    "image": "https://images.unsplash.com/photo-1576874762348-f74e25831a92?w=400&h=250&fit=crop&auto=format",
+    "image": "https://images.unsplash.com/photo-1652282557988-f19b23769c39?w=400&h=250&fit=crop&auto=format",
     "category": "healthy",
-    "mealTypes": ["lunch", "dinner"],
-    "availableAt": ["home", "restaurant", "street"],
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "availableAt": [
+      "home",
+      "restaurant",
+      "street"
+    ],
     "calories": 150,
     "priceMin": 40,
     "priceMax": 80
@@ -761,10 +1061,16 @@
     "nameEN": "Coconut Chicken Soup",
     "emoji": "🍲",
     "description": "น้ำซุปกะทิหอมข่า ตะไคร้ ใบมะกรูด ไก่นุ่ม เปรี้ยวนิดๆ กลมกล่อมมาก",
-    "image": "https://plus.unsplash.com/premium_photo-1699467556443-65d2a8d8f00e?w=400&h=250&fit=crop&auto=format",
+    "image": "https://images.unsplash.com/photo-1705234384050-ee4f35382eb7?w=400&h=250&fit=crop&auto=format",
     "category": "normal",
-    "mealTypes": ["lunch", "dinner"],
-    "availableAt": ["restaurant", "home"],
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "availableAt": [
+      "restaurant",
+      "home"
+    ],
     "calories": 350,
     "priceMin": 60,
     "priceMax": 120
