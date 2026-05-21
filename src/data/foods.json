@@ -17,7 +17,8 @@
     ],
     "calories": 250,
     "priceMin": 30,
-    "priceMax": 60
+    "priceMax": 60,
+    "cuisine": "thai"
   },
   {
     "id": "khao-tom",
@@ -38,7 +39,8 @@
     ],
     "calories": 280,
     "priceMin": 35,
-    "priceMax": 70
+    "priceMax": 70,
+    "cuisine": "thai"
   },
   {
     "id": "pathongko-soymilk",
@@ -57,7 +59,8 @@
     ],
     "calories": 350,
     "priceMin": 25,
-    "priceMax": 45
+    "priceMax": 45,
+    "cuisine": "thai"
   },
   {
     "id": "sandwich-711",
@@ -76,7 +79,8 @@
     ],
     "calories": 280,
     "priceMin": 29,
-    "priceMax": 49
+    "priceMax": 49,
+    "cuisine": "thai"
   },
   {
     "id": "khao-niew-moo-ping",
@@ -95,7 +99,8 @@
     ],
     "calories": 450,
     "priceMin": 30,
-    "priceMax": 60
+    "priceMax": 60,
+    "cuisine": "thai"
   },
   {
     "id": "oatmeal",
@@ -114,7 +119,8 @@
     ],
     "calories": 200,
     "priceMin": 20,
-    "priceMax": 80
+    "priceMax": 80,
+    "cuisine": "thai"
   },
   {
     "id": "khai-krata",
@@ -134,7 +140,8 @@
     ],
     "calories": 400,
     "priceMin": 40,
-    "priceMax": 80
+    "priceMax": 80,
+    "cuisine": "thai"
   },
   {
     "id": "toast",
@@ -154,7 +161,8 @@
     ],
     "calories": 220,
     "priceMin": 15,
-    "priceMax": 40
+    "priceMax": 40,
+    "cuisine": "thai"
   },
   {
     "id": "yogurt-granola",
@@ -174,7 +182,8 @@
     ],
     "calories": 180,
     "priceMin": 40,
-    "priceMax": 120
+    "priceMax": 120,
+    "cuisine": "thai"
   },
   {
     "id": "cafe-nom",
@@ -195,7 +204,8 @@
     ],
     "calories": 150,
     "priceMin": 25,
-    "priceMax": 80
+    "priceMax": 80,
+    "cuisine": "thai"
   },
   {
     "id": "khao-man-gai",
@@ -215,7 +225,8 @@
     ],
     "calories": 550,
     "priceMin": 40,
-    "priceMax": 80
+    "priceMax": 80,
+    "cuisine": "thai"
   },
   {
     "id": "pad-thai",
@@ -235,7 +246,8 @@
     ],
     "calories": 500,
     "priceMin": 40,
-    "priceMax": 100
+    "priceMax": 100,
+    "cuisine": "thai"
   },
   {
     "id": "khao-pad",
@@ -256,7 +268,8 @@
     ],
     "calories": 520,
     "priceMin": 40,
-    "priceMax": 80
+    "priceMax": 80,
+    "cuisine": "thai"
   },
   {
     "id": "kuay-tiew",
@@ -276,7 +289,8 @@
     ],
     "calories": 400,
     "priceMin": 40,
-    "priceMax": 80
+    "priceMax": 80,
+    "cuisine": "thai"
   },
   {
     "id": "som-tam-khao-niew",
@@ -296,7 +310,8 @@
     ],
     "calories": 350,
     "priceMin": 40,
-    "priceMax": 80
+    "priceMax": 80,
+    "cuisine": "thai"
   },
   {
     "id": "khao-klong-711",
@@ -315,7 +330,8 @@
     ],
     "calories": 500,
     "priceMin": 39,
-    "priceMax": 69
+    "priceMax": 69,
+    "cuisine": "thai"
   },
   {
     "id": "khao-moo-daeng",
@@ -335,7 +351,8 @@
     ],
     "calories": 600,
     "priceMin": 50,
-    "priceMax": 100
+    "priceMax": 100,
+    "cuisine": "thai"
   },
   {
     "id": "pad-krapao",
@@ -356,7 +373,8 @@
     ],
     "calories": 600,
     "priceMin": 40,
-    "priceMax": 80
+    "priceMax": 80,
+    "cuisine": "thai"
   },
   {
     "id": "khao-kluk-kapi",
@@ -375,7 +393,8 @@
     ],
     "calories": 550,
     "priceMin": 50,
-    "priceMax": 90
+    "priceMax": 90,
+    "cuisine": "thai"
   },
   {
     "id": "gaeng-khiew-wan",
@@ -395,7 +414,8 @@
     ],
     "calories": 500,
     "priceMin": 50,
-    "priceMax": 120
+    "priceMax": 120,
+    "cuisine": "thai"
   },
   {
     "id": "tom-yum-kung",
@@ -413,7 +433,8 @@
     ],
     "calories": 300,
     "priceMin": 80,
-    "priceMax": 250
+    "priceMax": 250,
+    "cuisine": "thai"
   },
   {
     "id": "moo-krata",
@@ -431,7 +452,8 @@
     ],
     "calories": 800,
     "priceMin": 159,
-    "priceMax": 299
+    "priceMax": 299,
+    "cuisine": "thai"
   },
   {
     "id": "shabu",
@@ -449,7 +471,8 @@
     ],
     "calories": 600,
     "priceMin": 199,
-    "priceMax": 399
+    "priceMax": 399,
+    "cuisine": "thai"
   },
   {
     "id": "steak",
@@ -467,7 +490,8 @@
     ],
     "calories": 700,
     "priceMin": 120,
-    "priceMax": 350
+    "priceMax": 350,
+    "cuisine": "thai"
   },
   {
     "id": "pizza",
@@ -487,7 +511,8 @@
     ],
     "calories": 650,
     "priceMin": 99,
-    "priceMax": 299
+    "priceMax": 299,
+    "cuisine": "thai"
   },
   {
     "id": "khao-soi",
@@ -506,7 +531,8 @@
     ],
     "calories": 550,
     "priceMin": 50,
-    "priceMax": 100
+    "priceMax": 100,
+    "cuisine": "thai"
   },
   {
     "id": "larb-moo",
@@ -526,7 +552,8 @@
     ],
     "calories": 300,
     "priceMin": 40,
-    "priceMax": 80
+    "priceMax": 80,
+    "cuisine": "thai"
   },
   {
     "id": "nam-tok-moo",
@@ -546,7 +573,8 @@
     ],
     "calories": 350,
     "priceMin": 50,
-    "priceMax": 90
+    "priceMax": 90,
+    "cuisine": "thai"
   },
   {
     "id": "pla-tod-nam-pla",
@@ -564,7 +592,8 @@
     ],
     "calories": 450,
     "priceMin": 100,
-    "priceMax": 250
+    "priceMax": 250,
+    "cuisine": "thai"
   },
   {
     "id": "gaeng-som",
@@ -584,7 +613,8 @@
     ],
     "calories": 250,
     "priceMin": 50,
-    "priceMax": 100
+    "priceMax": 100,
+    "cuisine": "thai"
   },
   {
     "id": "onigiri-711",
@@ -603,7 +633,8 @@
     ],
     "calories": 200,
     "priceMin": 25,
-    "priceMax": 39
+    "priceMax": 39,
+    "cuisine": "thai"
   },
   {
     "id": "look-chin-tod",
@@ -621,7 +652,8 @@
     ],
     "calories": 250,
     "priceMin": 10,
-    "priceMax": 30
+    "priceMax": 30,
+    "cuisine": "thai"
   },
   {
     "id": "khanom-krok",
@@ -640,7 +672,8 @@
     ],
     "calories": 200,
     "priceMin": 20,
-    "priceMax": 40
+    "priceMax": 40,
+    "cuisine": "thai"
   },
   {
     "id": "roti",
@@ -658,7 +691,8 @@
     ],
     "calories": 350,
     "priceMin": 20,
-    "priceMax": 50
+    "priceMax": 50,
+    "cuisine": "thai"
   },
   {
     "id": "cha-khai-muk",
@@ -677,7 +711,8 @@
     ],
     "calories": 300,
     "priceMin": 35,
-    "priceMax": 75
+    "priceMax": 75,
+    "cuisine": "thai"
   },
   {
     "id": "ice-cream",
@@ -697,7 +732,8 @@
     ],
     "calories": 250,
     "priceMin": 20,
-    "priceMax": 80
+    "priceMax": 80,
+    "cuisine": "thai"
   },
   {
     "id": "phon-la-mai-ruam",
@@ -717,7 +753,8 @@
     ],
     "calories": 100,
     "priceMin": 20,
-    "priceMax": 50
+    "priceMax": 50,
+    "cuisine": "thai"
   },
   {
     "id": "tua-lisong",
@@ -737,7 +774,8 @@
     ],
     "calories": 160,
     "priceMin": 15,
-    "priceMax": 35
+    "priceMax": 35,
+    "cuisine": "thai"
   },
   {
     "id": "man-tod",
@@ -756,7 +794,8 @@
     ],
     "calories": 300,
     "priceMin": 29,
-    "priceMax": 79
+    "priceMax": 79,
+    "cuisine": "thai"
   },
   {
     "id": "crepe-yipun",
@@ -775,7 +814,8 @@
     ],
     "calories": 280,
     "priceMin": 35,
-    "priceMax": 80
+    "priceMax": 80,
+    "cuisine": "thai"
   },
   {
     "id": "salad-ok-chicken",
@@ -795,7 +835,8 @@
     ],
     "calories": 250,
     "priceMin": 60,
-    "priceMax": 150
+    "priceMax": 150,
+    "cuisine": "thai"
   },
   {
     "id": "khao-klang-ok-gai",
@@ -815,7 +856,8 @@
     ],
     "calories": 350,
     "priceMin": 50,
-    "priceMax": 120
+    "priceMax": 120,
+    "cuisine": "thai"
   },
   {
     "id": "smoothie",
@@ -835,7 +877,8 @@
     ],
     "calories": 180,
     "priceMin": 50,
-    "priceMax": 120
+    "priceMax": 120,
+    "cuisine": "thai"
   },
   {
     "id": "sandwich-whole-wheat",
@@ -855,7 +898,8 @@
     ],
     "calories": 300,
     "priceMin": 35,
-    "priceMax": 80
+    "priceMax": 80,
+    "cuisine": "thai"
   },
   {
     "id": "soup-pak",
@@ -875,7 +919,8 @@
     ],
     "calories": 150,
     "priceMin": 30,
-    "priceMax": 80
+    "priceMax": 80,
+    "cuisine": "thai"
   },
   {
     "id": "yum-woon-sen",
@@ -895,7 +940,8 @@
     ],
     "calories": 200,
     "priceMin": 50,
-    "priceMax": 100
+    "priceMax": 100,
+    "cuisine": "thai"
   },
   {
     "id": "pad-see-ew",
@@ -915,7 +961,8 @@
     ],
     "calories": 500,
     "priceMin": 40,
-    "priceMax": 80
+    "priceMax": 80,
+    "cuisine": "thai"
   },
   {
     "id": "massaman-curry",
@@ -935,7 +982,8 @@
     ],
     "calories": 550,
     "priceMin": 50,
-    "priceMax": 120
+    "priceMax": 120,
+    "cuisine": "thai"
   },
   {
     "id": "pla-pao",
@@ -954,7 +1002,8 @@
     ],
     "calories": 350,
     "priceMin": 100,
-    "priceMax": 200
+    "priceMax": 200,
+    "cuisine": "thai"
   },
   {
     "id": "moo-satay",
@@ -974,7 +1023,8 @@
     ],
     "calories": 300,
     "priceMin": 30,
-    "priceMax": 80
+    "priceMax": 80,
+    "cuisine": "thai"
   },
   {
     "id": "khao-niew-mamuang",
@@ -993,7 +1043,8 @@
     ],
     "calories": 400,
     "priceMin": 50,
-    "priceMax": 120
+    "priceMax": 120,
+    "cuisine": "thai"
   },
   {
     "id": "som-tam-thai",
@@ -1012,7 +1063,8 @@
     ],
     "calories": 180,
     "priceMin": 40,
-    "priceMax": 70
+    "priceMax": 70,
+    "cuisine": "thai"
   },
   {
     "id": "gaeng-jued",
@@ -1032,7 +1084,8 @@
     ],
     "calories": 150,
     "priceMin": 30,
-    "priceMax": 60
+    "priceMax": 60,
+    "cuisine": "thai"
   },
   {
     "id": "pad-pak-ruam",
@@ -1053,7 +1106,8 @@
     ],
     "calories": 150,
     "priceMin": 40,
-    "priceMax": 80
+    "priceMax": 80,
+    "cuisine": "thai"
   },
   {
     "id": "tom-kha-gai",
@@ -1073,6 +1127,735 @@
     ],
     "calories": 350,
     "priceMin": 60,
+    "priceMax": 120,
+    "cuisine": "thai"
+  },
+  {
+    "id": "kung-pao-chicken",
+    "nameTH": "ไก่ผัดเม็ดมะม่วงหิมพานต์",
+    "nameEN": "Kung Pao Chicken",
+    "emoji": "🌶️",
+    "description": "ไก่ผัดกับพริกแห้ง เม็ดมะม่วงหิมพานต์ ถั่วลิสง รสเผ็ดหอม จานเด็ดจากเสฉวน",
+    "image": "https://images.unsplash.com/photo-1776729851079-686daa8ff9aa?w=400&h=250&fit=crop&auto=format",
+    "category": "normal",
+    "cuisine": "chinese",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "availableAt": [
+      "restaurant"
+    ],
+    "calories": 450,
+    "priceMin": 80,
+    "priceMax": 150
+  },
+  {
+    "id": "mapo-tofu",
+    "nameTH": "มาโปเต้าหู้",
+    "nameEN": "Mapo Tofu",
+    "emoji": "🫕",
+    "description": "เต้าหู้นุ่มในซอสพริกเสฉวนเผ็ดชา หมูสับ หอมร้อนแรง กินกับข้าวสวยร้อนๆ",
+    "image": "https://images.unsplash.com/photo-1769065647078-f067eb768035?w=400&h=250&fit=crop&auto=format",
+    "category": "normal",
+    "cuisine": "chinese",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "availableAt": [
+      "restaurant"
+    ],
+    "calories": 350,
+    "priceMin": 70,
+    "priceMax": 130
+  },
+  {
+    "id": "sweet-sour-pork",
+    "nameTH": "หมูผัดเปรี้ยวหวาน",
+    "nameEN": "Sweet and Sour Pork",
+    "emoji": "🍖",
+    "description": "หมูชุบแป้งทอดกรอบราดซอสเปรี้ยวหวาน ผัดกับสับปะรด พริกหยวก มะเขือเทศ",
+    "image": "https://images.unsplash.com/photo-1537340728969-d9c8b65093be?w=400&h=250&fit=crop&auto=format",
+    "category": "normal",
+    "cuisine": "chinese",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "availableAt": [
+      "restaurant"
+    ],
+    "calories": 500,
+    "priceMin": 80,
+    "priceMax": 150
+  },
+  {
+    "id": "chinese-fried-rice",
+    "nameTH": "ข้าวผัดจีน",
+    "nameEN": "Chinese Fried Rice",
+    "emoji": "🍳",
+    "description": "ข้าวผัดสไตล์จีน ไข่ ต้นหอม ถั่วงอก ซีอิ๊ว ไฟแรงหอมควัน",
+    "image": "https://images.unsplash.com/photo-1612755637313-9517f17d84b5?w=400&h=250&fit=crop&auto=format",
+    "category": "normal",
+    "cuisine": "chinese",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "availableAt": [
+      "street",
+      "restaurant"
+    ],
+    "calories": 400,
+    "priceMin": 50,
+    "priceMax": 100
+  },
+  {
+    "id": "xiaolongbao",
+    "nameTH": "เสี่ยวหลงเปา",
+    "nameEN": "Xiaolongbao",
+    "emoji": "🥟",
+    "description": "ซาลาเปาเซี่ยงไฮ้ไส้หมูน้ำซุป เปลือกบางใส กัดแล้วน้ำซุปไหล อร่อยเหลือเชื่อ",
+    "image": "https://images.unsplash.com/photo-1678026582164-24a5460c447a?w=400&h=250&fit=crop&auto=format",
+    "category": "normal",
+    "cuisine": "chinese",
+    "mealTypes": [
+      "lunch",
+      "dinner",
+      "snack"
+    ],
+    "availableAt": [
+      "restaurant"
+    ],
+    "calories": 300,
+    "priceMin": 80,
+    "priceMax": 180
+  },
+  {
+    "id": "peking-duck",
+    "nameTH": "เป็ดปักกิ่ง",
+    "nameEN": "Peking Duck",
+    "emoji": "🦆",
+    "description": "เป็ดอบหนังกรอบ เนื้อนุ่มฉ่ำ ห่อแป้งบางกับต้นหอม แตงกวา ซอสฮอยซิน",
+    "image": "https://images.unsplash.com/photo-1563409236302-8442b5e644df?w=400&h=250&fit=crop&auto=format",
+    "category": "normal",
+    "cuisine": "chinese",
+    "mealTypes": [
+      "dinner"
+    ],
+    "availableAt": [
+      "restaurant"
+    ],
+    "calories": 600,
+    "priceMin": 200,
+    "priceMax": 500
+  },
+  {
+    "id": "dan-dan-noodles",
+    "nameTH": "ตั้นตั้นเมี่ยน",
+    "nameEN": "Dan Dan Noodles",
+    "emoji": "🍜",
+    "description": "บะหมี่เสฉวนน้ำซอสงาเผ็ดชา หมูสับ ถั่วลิสง ผักดอง เส้นเหนียวนุ่ม",
+    "image": "https://images.unsplash.com/photo-1554273119-6044b2c49d47?w=400&h=250&fit=crop&auto=format",
+    "category": "normal",
+    "cuisine": "chinese",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "availableAt": [
+      "restaurant"
+    ],
+    "calories": 450,
+    "priceMin": 70,
+    "priceMax": 130
+  },
+  {
+    "id": "chinese-hot-pot",
+    "nameTH": "หม้อไฟจีน",
+    "nameEN": "Chinese Hot Pot",
+    "emoji": "♨️",
+    "description": "หม้อไฟต้มน้ำซุปร้อนๆ จุ่มเนื้อ ผัก เต้าหู้ เห็ด ลูกชิ้น กินเป็นกลุ่มสนุกมาก",
+    "image": "https://images.unsplash.com/photo-1703945530505-2f06e3e1cf97?w=400&h=250&fit=crop&auto=format",
+    "category": "normal",
+    "cuisine": "chinese",
+    "mealTypes": [
+      "dinner"
+    ],
+    "availableAt": [
+      "restaurant"
+    ],
+    "calories": 550,
+    "priceMin": 150,
+    "priceMax": 350
+  },
+  {
+    "id": "chinese-congee",
+    "nameTH": "โจ๊กจีน",
+    "nameEN": "Congee",
+    "emoji": "🥣",
+    "description": "ข้าวต้มจีนเนื้อเนียนนุ่ม ใส่ไข่เยี่ยวม้า หมูสับ ขิง ต้นหอม อุ่นท้องตอนเช้า",
+    "image": "https://images.unsplash.com/photo-1653860468845-a53ac4b1059a?w=400&h=250&fit=crop&auto=format",
+    "category": "healthy",
+    "cuisine": "chinese",
+    "mealTypes": [
+      "breakfast"
+    ],
+    "availableAt": [
+      "street",
+      "restaurant"
+    ],
+    "calories": 250,
+    "priceMin": 40,
+    "priceMax": 80
+  },
+  {
+    "id": "spring-rolls",
+    "nameTH": "ปอเปี๊ยะทอด",
+    "nameEN": "Spring Rolls",
+    "emoji": "🥠",
+    "description": "ปอเปี๊ยะทอดกรอบ ไส้ผัก วุ้นเส้น หมูสับ จิ้มซอสเปรี้ยวหวาน ของว่างยอดนิยม",
+    "image": "https://images.unsplash.com/photo-1613135373494-d1f6a77d159b?w=400&h=250&fit=crop&auto=format",
+    "category": "normal",
+    "cuisine": "chinese",
+    "mealTypes": [
+      "snack",
+      "lunch"
+    ],
+    "availableAt": [
+      "street",
+      "restaurant"
+    ],
+    "calories": 200,
+    "priceMin": 30,
+    "priceMax": 60
+  },
+  {
+    "id": "wonton-soup",
+    "nameTH": "เกี๊ยวน้ำ",
+    "nameEN": "Wonton Soup",
+    "emoji": "🥟",
+    "description": "เกี๊ยวไส้หมูสดในน้ำซุปใส โรยต้นหอม สาหร่าย อุ่นท้อง อร่อยทุกมื้อ",
+    "image": "https://images.unsplash.com/photo-1559948271-7d5c98d2e951?w=400&h=250&fit=crop&auto=format",
+    "category": "healthy",
+    "cuisine": "chinese",
+    "mealTypes": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "availableAt": [
+      "street",
+      "restaurant"
+    ],
+    "calories": 280,
+    "priceMin": 40,
+    "priceMax": 80
+  },
+  {
+    "id": "char-siu",
+    "nameTH": "หมูแดงจีน",
+    "nameEN": "Char Siu",
+    "emoji": "🥩",
+    "description": "หมูย่างสไตล์กวางตุ้ง เคลือบน้ำผึ้งหอมหวาน เนื้อนุ่มชุ่มฉ่ำ สีแดงน่ากิน",
+    "image": "https://images.unsplash.com/photo-1768204037765-2c744f4330ca?w=400&h=250&fit=crop&auto=format",
+    "category": "normal",
+    "cuisine": "chinese",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "availableAt": [
+      "restaurant"
+    ],
+    "calories": 400,
+    "priceMin": 60,
     "priceMax": 120
+  },
+  {
+    "id": "chow-mein",
+    "nameTH": "ผัดเส้นจีน",
+    "nameEN": "Chow Mein",
+    "emoji": "🍝",
+    "description": "เส้นหมี่ผัดกรอบกับผัก เนื้อไก่หรือกุ้ง ซอสถั่วเหลือง ไฟแรงหอมควัน",
+    "image": "https://images.unsplash.com/photo-1634864572872-a01c21e388d4?w=400&h=250&fit=crop&auto=format",
+    "category": "normal",
+    "cuisine": "chinese",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "availableAt": [
+      "street",
+      "restaurant"
+    ],
+    "calories": 420,
+    "priceMin": 50,
+    "priceMax": 100
+  },
+  {
+    "id": "dim-sum",
+    "nameTH": "ติ่มซำ",
+    "nameEN": "Dim Sum",
+    "emoji": "🧆",
+    "description": "อาหารเช้าสไตล์กวางตุ้ง ซาลาเปา ฮะเก๋า ขนมจีบ ปอเปี๊ยะ จิบชาร้อน",
+    "image": "https://images.unsplash.com/photo-1691995989456-6a77273f9f0c?w=400&h=250&fit=crop&auto=format",
+    "category": "normal",
+    "cuisine": "chinese",
+    "mealTypes": [
+      "breakfast",
+      "lunch",
+      "snack"
+    ],
+    "availableAt": [
+      "restaurant"
+    ],
+    "calories": 350,
+    "priceMin": 80,
+    "priceMax": 200
+  },
+  {
+    "id": "scallion-pancakes",
+    "nameTH": "แพนเค้กต้นหอม",
+    "nameEN": "Scallion Pancakes",
+    "emoji": "🫓",
+    "description": "แป้งทอดกรอบนอกนุ่มใน โรยต้นหอมหอมๆ จิ้มซอสถั่วเหลือง ของว่างจีนคลาสสิก",
+    "image": "https://images.unsplash.com/photo-1704383682314-92dd38542a0f?w=400&h=250&fit=crop&auto=format",
+    "category": "normal",
+    "cuisine": "chinese",
+    "mealTypes": [
+      "breakfast",
+      "snack"
+    ],
+    "availableAt": [
+      "street",
+      "restaurant"
+    ],
+    "calories": 280,
+    "priceMin": 30,
+    "priceMax": 60
+  },
+  {
+    "id": "baozi",
+    "nameTH": "ซาลาเปา",
+    "nameEN": "Baozi",
+    "emoji": "🥮",
+    "description": "ซาลาเปานึ่งร้อนๆ ไส้หมูสับ หรือไส้ครีม แป้งนุ่มฟู อิ่มง่ายตอนเช้า",
+    "image": "https://images.unsplash.com/photo-1602143249253-9805c88841ac?w=400&h=250&fit=crop&auto=format",
+    "category": "normal",
+    "cuisine": "chinese",
+    "mealTypes": [
+      "breakfast",
+      "snack"
+    ],
+    "availableAt": [
+      "street",
+      "restaurant"
+    ],
+    "calories": 250,
+    "priceMin": 20,
+    "priceMax": 50
+  },
+  {
+    "id": "malatang",
+    "nameTH": "หมาล่าถัง",
+    "nameEN": "Malatang",
+    "emoji": "🌶️",
+    "description": "ซุปหมาล่าเผ็ดชา เลือกผัก เนื้อ ลูกชิ้น เห็ดได้ตามใจ ต้มในน้ำซุปร้อนจัด",
+    "image": "https://images.unsplash.com/photo-1665111915331-73df0b196817?w=400&h=250&fit=crop&auto=format",
+    "category": "normal",
+    "cuisine": "chinese",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "availableAt": [
+      "restaurant"
+    ],
+    "calories": 400,
+    "priceMin": 80,
+    "priceMax": 180
+  },
+  {
+    "id": "jianbing",
+    "nameTH": "เจียนปิ่ง",
+    "nameEN": "Jianbing",
+    "emoji": "🫓",
+    "description": "เครปจีนโบราณ แป้งบางกรอบ ทาซอส ไข่ ผักชี ปาท่องโก๋ พับกินตอนเช้า",
+    "image": "https://images.unsplash.com/photo-1703425934589-82f346873a13?w=400&h=250&fit=crop&auto=format",
+    "category": "normal",
+    "cuisine": "chinese",
+    "mealTypes": [
+      "breakfast"
+    ],
+    "availableAt": [
+      "street"
+    ],
+    "calories": 300,
+    "priceMin": 40,
+    "priceMax": 80
+  },
+  {
+    "id": "ramen",
+    "nameTH": "ราเมน",
+    "nameEN": "Ramen",
+    "emoji": "🍜",
+    "description": "ราเมนน้ำซุปเข้มข้น เส้นเหนียวนุ่ม หมูชาชู ไข่ยางมะตูม สาหร่าย ต้นหอม",
+    "image": "https://images.unsplash.com/photo-1625189657893-f8fd7b45a901?w=400&h=250&fit=crop&auto=format",
+    "category": "normal",
+    "cuisine": "japanese",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "availableAt": [
+      "restaurant"
+    ],
+    "calories": 500,
+    "priceMin": 120,
+    "priceMax": 250
+  },
+  {
+    "id": "sushi",
+    "nameTH": "ซูชิ",
+    "nameEN": "Sushi",
+    "emoji": "🍣",
+    "description": "ข้าวปั้นหน้าปลาดิบสดๆ แซลมอน ทูน่า กุ้ง จิ้มวาซาบิโชยุ ละมุนในปาก",
+    "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=400&h=250&fit=crop&auto=format",
+    "category": "healthy",
+    "cuisine": "japanese",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "availableAt": [
+      "restaurant"
+    ],
+    "calories": 350,
+    "priceMin": 100,
+    "priceMax": 300
+  },
+  {
+    "id": "tempura",
+    "nameTH": "เทมปุระ",
+    "nameEN": "Tempura",
+    "emoji": "🍤",
+    "description": "กุ้งและผักชุบแป้งทอดกรอบเบาๆ แป้งบางฟู จิ้มซอสเท็นสึยุ กรอบนอกนุ่มใน",
+    "image": "https://images.unsplash.com/photo-1593357849627-cbbc9fda6b05?w=400&h=250&fit=crop&auto=format",
+    "category": "normal",
+    "cuisine": "japanese",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "availableAt": [
+      "restaurant"
+    ],
+    "calories": 400,
+    "priceMin": 100,
+    "priceMax": 220
+  },
+  {
+    "id": "tonkatsu",
+    "nameTH": "ทงคัตสึ",
+    "nameEN": "Tonkatsu",
+    "emoji": "🥩",
+    "description": "หมูชุบเกล็ดขนมปังทอดกรอบ เนื้อนุ่มฉ่ำ เสิร์ฟกับกะหล่ำซอยและข้าว",
+    "image": "https://images.unsplash.com/photo-1496112774951-bf41010eed5e?w=400&h=250&fit=crop&auto=format",
+    "category": "normal",
+    "cuisine": "japanese",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "availableAt": [
+      "restaurant"
+    ],
+    "calories": 550,
+    "priceMin": 120,
+    "priceMax": 250
+  },
+  {
+    "id": "gyoza",
+    "nameTH": "เกี๊ยวซ่า",
+    "nameEN": "Gyoza",
+    "emoji": "🥟",
+    "description": "เกี๊ยวญี่ปุ่นทอดกรอบด้านล่าง ไส้หมูผัก ห่อแป้งบาง จิ้มซอสพอนซึ",
+    "image": "https://images.unsplash.com/photo-1703080173985-936514c7c8bd?w=400&h=250&fit=crop&auto=format",
+    "category": "normal",
+    "cuisine": "japanese",
+    "mealTypes": [
+      "lunch",
+      "dinner",
+      "snack"
+    ],
+    "availableAt": [
+      "restaurant"
+    ],
+    "calories": 300,
+    "priceMin": 80,
+    "priceMax": 150
+  },
+  {
+    "id": "udon",
+    "nameTH": "อุด้ง",
+    "nameEN": "Udon",
+    "emoji": "🍲",
+    "description": "เส้นอุด้งหนานุ่มในน้ำซุปดาชิร้อน ใส่เต้าหู้ทอด ต้นหอม สาหร่าย",
+    "image": "https://images.unsplash.com/photo-1700323861852-069271b695b3?w=400&h=250&fit=crop&auto=format",
+    "category": "normal",
+    "cuisine": "japanese",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "availableAt": [
+      "restaurant"
+    ],
+    "calories": 400,
+    "priceMin": 100,
+    "priceMax": 200
+  },
+  {
+    "id": "soba",
+    "nameTH": "โซบะ",
+    "nameEN": "Soba",
+    "emoji": "🍝",
+    "description": "เส้นบัควีทญี่ปุ่น กินร้อนในน้ำซุปหรือเย็นจิ้มซอสเมนสึยุ เบาสบายท้อง",
+    "image": "https://images.unsplash.com/photo-1692934938643-326c3970825f?w=400&h=250&fit=crop&auto=format",
+    "category": "healthy",
+    "cuisine": "japanese",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "availableAt": [
+      "restaurant"
+    ],
+    "calories": 350,
+    "priceMin": 100,
+    "priceMax": 200
+  },
+  {
+    "id": "onigiri-jp",
+    "nameTH": "โอนิกิริ",
+    "nameEN": "Onigiri",
+    "emoji": "🍙",
+    "description": "ข้าวปั้นญี่ปุ่นห่อสาหร่าย ไส้แซลมอน ทูน่ามาโย บ๊วย พกง่ายกินสะดวก",
+    "image": "https://images.unsplash.com/photo-1696463469919-def9b2830857?w=400&h=250&fit=crop&auto=format",
+    "category": "healthy",
+    "cuisine": "japanese",
+    "mealTypes": [
+      "breakfast",
+      "lunch",
+      "snack"
+    ],
+    "availableAt": [
+      "7-11",
+      "restaurant"
+    ],
+    "calories": 200,
+    "priceMin": 35,
+    "priceMax": 60
+  },
+  {
+    "id": "japanese-curry",
+    "nameTH": "แกงกะหรี่ญี่ปุ่น",
+    "nameEN": "Japanese Curry Rice",
+    "emoji": "🍛",
+    "description": "แกงกะหรี่ข้นหวานมัน ราดข้าวร้อน ใส่มันฝรั่ง แครอท เนื้อหรือไก่ทอด",
+    "image": "https://images.unsplash.com/photo-1706145779556-f2c642db2699?w=400&h=250&fit=crop&auto=format",
+    "category": "normal",
+    "cuisine": "japanese",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "availableAt": [
+      "restaurant"
+    ],
+    "calories": 550,
+    "priceMin": 100,
+    "priceMax": 200
+  },
+  {
+    "id": "takoyaki",
+    "nameTH": "ทาโกะยากิ",
+    "nameEN": "Takoyaki",
+    "emoji": "🐙",
+    "description": "ลูกชิ้นปลาหมึกทอดกลมๆ ราดซอส มาโยเนส สาหร่ายผง ปลาแห้ง ร้อนๆ กรอบนอกนุ่มใน",
+    "image": "https://images.unsplash.com/photo-1738681335816-8e0df0aa9824?w=400&h=250&fit=crop&auto=format",
+    "category": "normal",
+    "cuisine": "japanese",
+    "mealTypes": [
+      "snack"
+    ],
+    "availableAt": [
+      "street",
+      "restaurant"
+    ],
+    "calories": 300,
+    "priceMin": 60,
+    "priceMax": 120
+  },
+  {
+    "id": "okonomiyaki",
+    "nameTH": "โอโคโนมิยากิ",
+    "nameEN": "Okonomiyaki",
+    "emoji": "🥞",
+    "description": "แพนเค้กผสมกะหล่ำปลีและไส้ต่างๆ ราดซอส มาโย สาหร่าย ปลาแห้ง หอมมาก",
+    "image": "https://images.unsplash.com/photo-1629579436553-6b34e5ddd9de?w=400&h=250&fit=crop&auto=format",
+    "category": "normal",
+    "cuisine": "japanese",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "availableAt": [
+      "restaurant"
+    ],
+    "calories": 500,
+    "priceMin": 100,
+    "priceMax": 200
+  },
+  {
+    "id": "yakitori",
+    "nameTH": "ยากิโทริ",
+    "nameEN": "Yakitori",
+    "emoji": "🍢",
+    "description": "ไก่ย่างเสียบไม้สไตล์ญี่ปุ่น ทั้งเนื้อ หนัง ปีก ตับ ราดซอสทาเระหรือเกลือ",
+    "image": "https://images.unsplash.com/photo-1705803432022-f6145988c5d0?w=400&h=250&fit=crop&auto=format",
+    "category": "normal",
+    "cuisine": "japanese",
+    "mealTypes": [
+      "dinner",
+      "snack"
+    ],
+    "availableAt": [
+      "restaurant"
+    ],
+    "calories": 350,
+    "priceMin": 80,
+    "priceMax": 180
+  },
+  {
+    "id": "katsu-curry",
+    "nameTH": "คัตสึแกงกะหรี่",
+    "nameEN": "Katsu Curry",
+    "emoji": "🍛",
+    "description": "หมูทอดทงคัตสึราดแกงกะหรี่ข้นหวาน กับข้าวร้อน อิ่มแน่นทุกคำ",
+    "image": "https://images.unsplash.com/photo-1679279726946-a158b8bcaa23?w=400&h=250&fit=crop&auto=format",
+    "category": "normal",
+    "cuisine": "japanese",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "availableAt": [
+      "restaurant"
+    ],
+    "calories": 650,
+    "priceMin": 120,
+    "priceMax": 250
+  },
+  {
+    "id": "miso-soup",
+    "nameTH": "ซุปมิโซะ",
+    "nameEN": "Miso Soup",
+    "emoji": "🍵",
+    "description": "ซุปมิโซะร้อนๆ เต้าหู้นุ่ม สาหร่ายวากาเมะ ต้นหอม น้ำซุปใสหอมอูมามิ",
+    "image": "https://images.unsplash.com/photo-1680137248903-7af5d51a3350?w=400&h=250&fit=crop&auto=format",
+    "category": "healthy",
+    "cuisine": "japanese",
+    "mealTypes": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "availableAt": [
+      "restaurant"
+    ],
+    "calories": 80,
+    "priceMin": 30,
+    "priceMax": 60
+  },
+  {
+    "id": "donburi",
+    "nameTH": "ข้าวหน้าญี่ปุ่น",
+    "nameEN": "Donburi",
+    "emoji": "🍚",
+    "description": "ข้าวหน้าสไตล์ญี่ปุ่น เนื้อ ไก่ หรือปลาดิบ ราดซอสบนข้าวร้อน อิ่มจานเดียว",
+    "image": "https://images.unsplash.com/photo-1700323449261-5332ce054718?w=400&h=250&fit=crop&auto=format",
+    "category": "normal",
+    "cuisine": "japanese",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "availableAt": [
+      "restaurant"
+    ],
+    "calories": 500,
+    "priceMin": 100,
+    "priceMax": 220
+  },
+  {
+    "id": "sashimi",
+    "nameTH": "ซาชิมิ",
+    "nameEN": "Sashimi",
+    "emoji": "🐟",
+    "description": "ปลาดิบหั่นชิ้นสวยๆ แซลมอน ทูน่า ฮามาจิ จิ้มโชยุวาซาบิ สดใหม่ละมุน",
+    "image": "https://images.unsplash.com/photo-1638866381709-071747b518c8?w=400&h=250&fit=crop&auto=format",
+    "category": "healthy",
+    "cuisine": "japanese",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "availableAt": [
+      "restaurant"
+    ],
+    "calories": 200,
+    "priceMin": 150,
+    "priceMax": 400
+  },
+  {
+    "id": "edamame",
+    "nameTH": "ถั่วแระญี่ปุ่น",
+    "nameEN": "Edamame",
+    "emoji": "🫘",
+    "description": "ถั่วแระต้มโรยเกลือ ของว่างเบาๆ โปรตีนสูง กินเพลินไม่รู้ตัว",
+    "image": "https://images.unsplash.com/photo-1649257171206-37625b1f3b2f?w=400&h=250&fit=crop&auto=format",
+    "category": "healthy",
+    "cuisine": "japanese",
+    "mealTypes": [
+      "snack"
+    ],
+    "availableAt": [
+      "restaurant"
+    ],
+    "calories": 120,
+    "priceMin": 50,
+    "priceMax": 100
+  },
+  {
+    "id": "matcha-dessert",
+    "nameTH": "ของหวานมัทฉะ",
+    "nameEN": "Matcha Dessert",
+    "emoji": "🍵",
+    "description": "ของหวานชาเขียวมัทฉะ ไอศกรีม เค้ก โมจิ ขมหวานละมุน กลิ่นหอมชาเขียว",
+    "image": "https://images.unsplash.com/photo-1627308592814-f88b68f7b4a1?w=400&h=250&fit=crop&auto=format",
+    "category": "normal",
+    "cuisine": "japanese",
+    "mealTypes": [
+      "snack"
+    ],
+    "availableAt": [
+      "restaurant"
+    ],
+    "calories": 250,
+    "priceMin": 80,
+    "priceMax": 180
   }
 ]

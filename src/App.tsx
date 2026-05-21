@@ -25,6 +25,7 @@ function getDefaultFilters(): FilterState {
   return {
     mealType: getDefaultMealType(),
     healthMode: "any",
+    cuisine: "any",
     availableAt: "any",
     budgetMood: "any",
   };
@@ -47,6 +48,7 @@ function App() {
     return typedFoods.filter((f) => {
       if (filters.mealType !== "any" && !f.mealTypes.includes(filters.mealType)) return false;
       if (filters.healthMode !== "any" && f.category !== filters.healthMode) return false;
+      if (filters.cuisine !== "any" && f.cuisine !== filters.cuisine) return false;
       if (filters.availableAt !== "any" && !f.availableAt.includes(filters.availableAt)) return false;
       if (filters.budgetMood === "broke" && f.priceMax > 60) return false;
       if (filters.budgetMood === "normal" && f.priceMax > 150) return false;

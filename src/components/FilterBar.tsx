@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import type { FilterState, MealType, HealthMode, Venue, BudgetMood } from "../types/food";
+import type { FilterState, MealType, HealthMode, Cuisine, Venue, BudgetMood } from "../types/food";
 
 interface FilterBarProps {
   filters: FilterState;
@@ -19,6 +19,13 @@ const HEALTH_MODES: { value: HealthMode | "any"; label: string; emoji: string }[
   { value: "any", label: "ทั้งหมด", emoji: "🍽" },
   { value: "healthy", label: "สุขภาพ", emoji: "🥗" },
   { value: "normal", label: "ปกติ", emoji: "🍔" },
+];
+
+const CUISINES: { value: Cuisine | "any"; label: string; emoji: string }[] = [
+  { value: "any", label: "ทั้งหมด", emoji: "🌏" },
+  { value: "thai", label: "ไทย", emoji: "🇹🇭" },
+  { value: "chinese", label: "จีน", emoji: "🇨🇳" },
+  { value: "japanese", label: "ญี่ปุ่น", emoji: "🇯🇵" },
 ];
 
 const VENUES: { value: Venue | "any"; label: string; emoji: string }[] = [
@@ -66,6 +73,10 @@ export function FilterBar({ filters, onChange, autoMealType }: FilterBarProps) {
     onChange({ ...filters, healthMode: filters.healthMode === v ? "any" : v });
   };
 
+  const setCuisine = (v: Cuisine | "any") => {
+    onChange({ ...filters, cuisine: filters.cuisine === v ? "any" : v });
+  };
+
   const setVenue = (v: Venue | "any") => {
     onChange({ ...filters, availableAt: filters.availableAt === v ? "any" : v });
   };
@@ -91,6 +102,11 @@ export function FilterBar({ filters, onChange, autoMealType }: FilterBarProps) {
       <div className="flex flex-wrap gap-2">
         {HEALTH_MODES.map((h) => (
           <Pill key={h.value} active={filters.healthMode === h.value} label={h.label} emoji={h.emoji} onClick={() => setHealthMode(h.value)} />
+        ))}
+      </div>
+      <div className="flex flex-wrap gap-2">
+        {CUISINES.map((c) => (
+          <Pill key={c.value} active={filters.cuisine === c.value} label={c.label} emoji={c.emoji} onClick={() => setCuisine(c.value)} />
         ))}
       </div>
       <div className="flex flex-wrap gap-2">

@@ -8,6 +8,7 @@ export const FoodItemSchema = z.object({
   description: z.string(),
   image: z.string(),
   category: z.enum(["healthy", "normal"]),
+  cuisine: z.enum(["thai", "chinese", "japanese"]),
   mealTypes: z.array(z.enum(["breakfast", "lunch", "dinner", "snack"])),
   availableAt: z.array(z.enum(["7-11", "street", "restaurant", "home"])),
   calories: z.number(),
