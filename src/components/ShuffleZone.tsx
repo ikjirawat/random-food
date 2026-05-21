@@ -8,7 +8,7 @@ interface ShuffleZoneProps {
   currentFood: FoodItem | null;
   ghostFoods: FoodItem[];
   recentLabel?: string;
-  geo?: { getPosition: () => Promise<{ lat: number; lng: number } | null> };
+  geo?: { getPosition: () => Promise<{ lat: number; lng: number } | null>; denied?: boolean };
 }
 
 const ghostVariant = {
@@ -114,6 +114,7 @@ export function ShuffleZone({ phase, currentFood, ghostFoods, recentLabel, geo }
                 food={currentFood}
                 recentLabel={recentLabel}
                 onFindNearby={handleFindNearby}
+                geoDenied={geo?.denied}
               />
             </motion.div>
           )}

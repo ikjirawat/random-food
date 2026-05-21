@@ -51,9 +51,10 @@ interface FoodCardProps {
   ghost?: boolean;
   recentLabel?: string;
   onFindNearby?: () => void;
+  geoDenied?: boolean;
 }
 
-export function FoodCard({ food, ghost, recentLabel, onFindNearby }: FoodCardProps) {
+export function FoodCard({ food, ghost, recentLabel, onFindNearby, geoDenied }: FoodCardProps) {
   if (ghost) {
     return (
       <div
@@ -121,6 +122,11 @@ export function FoodCard({ food, ghost, recentLabel, onFindNearby }: FoodCardPro
           >
             📍 หาร้านใกล้ฉัน
           </button>
+        )}
+        {geoDenied && (
+          <p className="text-xs text-white/40 mt-1">
+            ไม่สามารถเข้าถึงตำแหน่งที่ตั้ง เปิดในการตั้งค่าเบราว์เซอร์เพื่อค้นหาร้านอาหารใกล้เคียง
+          </p>
         )}
       </div>
     </div>

@@ -17,7 +17,8 @@ function load(): HistoryEntry[] {
 }
 
 function addPick(foodId: string) {
-  const entries = load();
+  const cutoff = Date.now() - 90 * 86400000;
+  const entries = load().filter(e => e.timestamp > cutoff);
   entries.push({ foodId, timestamp: Date.now() });
   while (entries.length > MAX_ENTRIES) entries.shift();
   localStorage.setItem(HISTORY_KEY, JSON.stringify(entries));

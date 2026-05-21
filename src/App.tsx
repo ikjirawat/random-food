@@ -1,6 +1,7 @@
 import { useState, useMemo, useCallback } from "react";
 import foods from "./data/foods.json";
 import type { FoodItem, AppPhase, FilterState, MealType } from "./types/food";
+import { FoodItemSchema } from "./schemas/food";
 import { FilterBar } from "./components/FilterBar";
 import { ShuffleZone } from "./components/ShuffleZone";
 import { RandomizeButton } from "./components/RandomizeButton";
@@ -10,7 +11,7 @@ import { SwipeMode } from "./components/SwipeMode";
 import { useHistory } from "./hooks/useHistory";
 import { useGeolocation } from "./hooks/useGeolocation";
 
-const typedFoods = foods as unknown as FoodItem[];
+const typedFoods = FoodItemSchema.array().parse(foods);
 
 function getDefaultMealType(): MealType | "any" {
   const hour = new Date().getHours();
