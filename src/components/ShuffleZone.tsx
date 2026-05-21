@@ -7,6 +7,8 @@ interface ShuffleZoneProps {
   phase: AppPhase;
   currentFood: FoodItem | null;
   ghostFoods: FoodItem[];
+  recentLabel?: string;
+  geo?: { getPosition: () => Promise<{ lat: number; lng: number } | null> };
 }
 
 const ghostVariant = {
@@ -27,8 +29,8 @@ function IdlePrompt() {
       transition={{ repeat: Infinity, duration: 3, ease: "easeInOut" }}
       className="w-full rounded-2xl flex flex-col items-center justify-center py-16 gap-3"
       style={{
-        background: "#1A1A24",
-        border: "1px solid rgba(255,255,255,0.08)",
+        background: "var(--bg-card)",
+        border: "1px solid var(--border-light)",
         boxShadow: "0 8px 32px rgba(0,0,0,0.3)",
       }}
     >
@@ -38,7 +40,7 @@ function IdlePrompt() {
   );
 }
 
-export function ShuffleZone({ phase, currentFood, ghostFoods }: ShuffleZoneProps) {
+export function ShuffleZone({ phase, currentFood, ghostFoods, recentLabel, geo }: ShuffleZoneProps) {
   const [ghostIndex, setGhostIndex] = useState(-1);
   const [showWinner, setShowWinner] = useState(false);
 
@@ -62,9 +64,19 @@ export function ShuffleZone({ phase, currentFood, ghostFoods }: ShuffleZoneProps
     return () => { clearTimeout(t1); clearTimeout(t2); clearTimeout(t3); };
   }, [phase]);
 
+  async function handleFindNearby() {
+    if (!currentFood) return;
+    const pos = geo ? await geo.getPosition() : null;
+    const query = encodeURIComponent(currentFood.nameTH);
+    const url = pos
+      ? `https://www.google.com/maps/search/${query}/@${pos.lat},${pos.lng},15z`
+      : `https://www.google.com/maps/search/${query}`;
+    window.open(url, "_blank");
+  }
+
   return (
     <div className="relative px-4 min-h-[320px] flex items-center justify-center overflow-hidden">
-      <div className="w-full max-w-sm">
+      <div className="w-full max-w-sm" role="status" aria-live="polite">
         <AnimatePresence mode="wait">
           {phase === "idle" && (
             <motion.div
@@ -98,7 +110,11 @@ export function ShuffleZone({ phase, currentFood, ghostFoods }: ShuffleZoneProps
               animate="animate"
               transition={{ type: "spring", stiffness: 300, damping: 25 }}
             >
-              <FoodCard food={currentFood} />
+              <FoodCard
+                food={currentFood}
+                recentLabel={recentLabel}
+                onFindNearby={handleFindNearby}
+              />
             </motion.div>
           )}
         </AnimatePresence>

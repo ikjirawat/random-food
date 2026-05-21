@@ -18,10 +18,11 @@ export function RandomizeButton({ phase, disabled, onClick }: RandomizeButtonPro
         whileHover={!isSpinning && !disabled ? { scale: 1.02 } : undefined}
         onClick={onClick}
         disabled={isSpinning || disabled}
+        aria-label={isSpinning ? "กำลังสุ่มอาหาร" : phase === "result" ? "สุ่มอาหารอีกครั้ง" : "สุ่มอาหาร"}
         className="min-h-[56px] w-full max-w-xs rounded-2xl text-white font-bold text-lg cursor-pointer transition-opacity"
         style={{
-          background: disabled ? "rgba(255,255,255,0.1)" : "#FF6B35",
-          boxShadow: disabled ? "none" : "0 4px 20px rgba(255,107,53,0.4)",
+          background: disabled ? "rgba(255,255,255,0.1)" : "var(--orange)",
+          boxShadow: disabled ? "none" : "0 4px 20px var(--orange-glow)",
           opacity: isSpinning ? 0.7 : disabled ? 0.4 : 1,
           cursor: isSpinning || disabled ? "not-allowed" : "pointer",
         }}
