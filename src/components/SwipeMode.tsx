@@ -1,4 +1,4 @@
-import { useState, useMemo, useEffect } from "react";
+import { useState, useMemo } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { SwipeCard } from "./SwipeCard";
 import type { FoodItem } from "../types/food";
@@ -20,11 +20,13 @@ function shuffle<T>(arr: T[]): T[] {
 }
 
 export function SwipeMode({ foods, onAccept, onExhausted, recentLabel }: SwipeModeProps) {
-  const foodKey = useMemo(() => foods.map(f => f.id).sort().join(","), [foods]);
-  const shuffled = useMemo(() => shuffle(foods), [foodKey]);
+  const shuffled = useMemo(() => shuffle(foods), [foods]);
+  const [prevFoods, setPrevFoods] = useState(foods);
   const [index, setIndex] = useState(0);
-
-  useEffect(() => { setIndex(0); }, [foodKey]);
+  if (foods !== prevFoods) {
+    setPrevFoods(foods);
+    setIndex(0);
+  }
 
   const current = shuffled[index];
   const next = shuffled[index + 1];

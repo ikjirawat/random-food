@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
 import { FoodCard } from "./FoodCard";
 import type { FoodItem, AppPhase } from "../types/food";
 
@@ -23,10 +23,11 @@ const enterVariant = {
 };
 
 function IdlePrompt() {
+  const reduce = useReducedMotion();
   return (
     <motion.div
-      animate={{ y: [0, -8, 0] }}
-      transition={{ repeat: Infinity, duration: 3, ease: "easeInOut" }}
+      animate={reduce ? undefined : { y: [0, -8, 0] }}
+      transition={reduce ? undefined : { repeat: Infinity, duration: 3, ease: "easeInOut" }}
       className="w-full rounded-2xl flex flex-col items-center justify-center py-16 gap-3"
       style={{
         background: "var(--bg-card)",
@@ -42,26 +43,18 @@ function IdlePrompt() {
 
 export function ShuffleZone({ phase, currentFood, ghostFoods, recentLabel, geo }: ShuffleZoneProps) {
   const [ghostIndex, setGhostIndex] = useState(-1);
-  const [showWinner, setShowWinner] = useState(false);
 
   useEffect(() => {
-    if (phase !== "spinning") {
-      setGhostIndex(-1);
-      setShowWinner(false);
-      return;
-    }
-
-    setGhostIndex(0);
-    setShowWinner(false);
-
+    if (phase !== "spinning") return;
+    const t0 = setTimeout(() => setGhostIndex(0), 0);
     const t1 = setTimeout(() => setGhostIndex(1), 200);
     const t2 = setTimeout(() => setGhostIndex(2), 400);
-    const t3 = setTimeout(() => {
+    return () => {
+      clearTimeout(t0);
+      clearTimeout(t1);
+      clearTimeout(t2);
       setGhostIndex(-1);
-      setShowWinner(true);
-    }, 600);
-
-    return () => { clearTimeout(t1); clearTimeout(t2); clearTimeout(t3); };
+    };
   }, [phase]);
 
   async function handleFindNearby() {
@@ -102,7 +95,7 @@ export function ShuffleZone({ phase, currentFood, ghostFoods, recentLabel, geo }
             </motion.div>
           )}
 
-          {((phase === "spinning" && showWinner) || phase === "result") && currentFood && (
+          {phase === "result" && currentFood && (
             <motion.div
               key={`winner-${currentFood.id}`}
               variants={enterVariant}

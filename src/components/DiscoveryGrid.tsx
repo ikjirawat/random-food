@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { motion } from "framer-motion";
 import type { FoodItem } from "../types/food";
 
@@ -8,11 +9,20 @@ interface DiscoveryGridProps {
 }
 
 export function DiscoveryGrid({ foods, triedIds, onClose }: DiscoveryGridProps) {
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => { if (e.key === "Escape") onClose(); };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [onClose]);
+
   return (
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
+      role="dialog"
+      aria-modal="true"
+      aria-label="รายการอาหารที่ลองแล้ว"
       className="fixed inset-0 z-50 flex items-end justify-center"
       style={{ background: "rgba(0,0,0,0.7)" }}
       onClick={onClose}
@@ -32,6 +42,7 @@ export function DiscoveryGrid({ foods, triedIds, onClose }: DiscoveryGridProps) 
           </h2>
           <button
             onClick={onClose}
+            aria-label="ปิด"
             className="w-8 h-8 rounded-full flex items-center justify-center text-white/50 hover:text-white transition-colors cursor-pointer"
             style={{ background: "rgba(255,255,255,0.08)", border: "none" }}
           >
