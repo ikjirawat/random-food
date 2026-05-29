@@ -103,7 +103,7 @@ function App() {
       setPrevFoodId(pick.id);
       history.addPick(pick.id);
       setPhase("result");
-    }, 1200);
+    }, 700);
   }, [filteredFoods, prevFoodId, phase, history]);
 
   const handleSwipeAccept = useCallback((food: FoodItem) => {
@@ -133,7 +133,10 @@ function App() {
 
   const isEmpty = filteredFoods.length === 0;
   const triedCount = history.getTriedCount();
-  const triedIds = useMemo(() => new Set(history.load().map((e) => e.foodId)), [phase]);
+  // triedIds is recomputed only after a pick (phase) or when the discovery sheet opens;
+  // `history` is a stable accessor object, intentionally excluded.
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  const triedIds = useMemo(() => new Set(history.load().map((e) => e.foodId)), [phase, showDiscovery]);
 
   return (
     <div className="min-h-screen bg-[var(--bg-surface)] text-white">
@@ -153,6 +156,8 @@ function App() {
         <div className="flex justify-center gap-2 px-4">
           <button
             onClick={() => setMode("random")}
+            aria-pressed={mode === "random"}
+            aria-label="โหมดสุ่ม"
             className="px-4 py-2 rounded-full text-sm font-medium transition-colors"
             style={{
               background: mode === "random" ? "var(--orange-bg)" : "rgba(255,255,255,0.06)",
@@ -164,6 +169,8 @@ function App() {
           </button>
           <button
             onClick={() => { setMode("swipe"); setPhase("idle"); }}
+            aria-pressed={mode === "swipe"}
+            aria-label="โหมดปัดเลือก"
             className="px-4 py-2 rounded-full text-sm font-medium transition-colors"
             style={{
               background: mode === "swipe" ? "var(--orange-bg)" : "rgba(255,255,255,0.06)",
@@ -200,7 +207,7 @@ function App() {
         {/* Discovery counter */}
         <button
           onClick={() => setShowDiscovery(true)}
-          className="text-center text-white/40 text-xs font-mono hover:text-white/60 transition-colors cursor-pointer bg-transparent border-none"
+          className="text-center text-white/55 text-xs font-mono hover:text-white/60 transition-colors cursor-pointer bg-transparent border-none"
         >
           ลองแล้ว {triedCount}/{typedFoods.length} · {filteredFoods.length} ตรงเงื่อนไข
         </button>

@@ -14,7 +14,7 @@ export function EmptyState({ onReset }: EmptyStateProps) {
     >
       <span className="text-5xl">😅</span>
       <p className="text-white/60 text-base font-medium">ไม่เจอเลย...</p>
-      <p className="text-white/30 text-sm">ลองเลือก filter ใหม่นะ</p>
+      <p className="text-white/55 text-sm">ลองเลือก filter ใหม่นะ</p>
       <motion.button
         whileTap={{ scale: 0.95 }}
         onClick={onReset}

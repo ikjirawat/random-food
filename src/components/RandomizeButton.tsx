@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { motion, useReducedMotion } from "framer-motion";
 import type { AppPhase } from "../types/food";
 
 interface RandomizeButtonProps {
@@ -9,6 +9,7 @@ interface RandomizeButtonProps {
 
 export function RandomizeButton({ phase, disabled, onClick }: RandomizeButtonProps) {
   const isSpinning = phase === "spinning";
+  const reduce = useReducedMotion();
   const label = isSpinning ? "🎰 กำลังสุ่ม..." : phase === "result" ? "🔄 อีกที!" : "🎲 สุ่มเลย!";
 
   return (
@@ -27,7 +28,7 @@ export function RandomizeButton({ phase, disabled, onClick }: RandomizeButtonPro
           cursor: isSpinning || disabled ? "not-allowed" : "pointer",
         }}
       >
-        {isSpinning ? (
+        {isSpinning && !reduce ? (
           <motion.span
             animate={{ opacity: [1, 0.5, 1] }}
             transition={{ repeat: Infinity, duration: 1 }}

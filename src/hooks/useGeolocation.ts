@@ -21,7 +21,9 @@ export function useGeolocation() {
           setDenied(true);
           return null;
         }
-      } catch {}
+      } catch {
+        /* Permissions API unsupported in this browser — fall through and prompt directly */
+      }
     }
 
     setLoading(true);
